@@ -1,0 +1,275 @@
+[2025-09-28T11:53:43.866+0100] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-09-28T11:53:43.874+0100] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ETL_toll_data.postgresload manual__2025-09-28T10:53:25.390997+00:00 [queued]>
+[2025-09-28T11:53:43.880+0100] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ETL_toll_data.postgresload manual__2025-09-28T10:53:25.390997+00:00 [queued]>
+[2025-09-28T11:53:43.880+0100] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2025-09-28T11:53:43.895+0100] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): postgresload> on 2025-09-28 10:53:25.390997+00:00
+[2025-09-28T11:53:43.901+0100] {standard_task_runner.py:72} INFO - Started process 1171 to run task
+[2025-09-28T11:53:43.906+0100] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'ETL_toll_data', 'postgresload', 'manual__2025-09-28T10:53:25.390997+00:00', '--job-id', '31', '--raw', '--subdir', 'DAGS_FOLDER/ETL_toll_data.py', '--cfg-path', '/tmp/tmpnyfkyj0_']
+[2025-09-28T11:53:43.909+0100] {standard_task_runner.py:105} INFO - Job 31: Subtask postgresload
+[2025-09-28T11:53:43.975+0100] {task_command.py:467} INFO - Running <TaskInstance: ETL_toll_data.postgresload manual__2025-09-28T10:53:25.390997+00:00 [running]> on host AZZ-PTT-1.localdomain
+[2025-09-28T11:53:44.061+0100] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='thengineer@data.com' AIRFLOW_CTX_DAG_OWNER='The Engineer' AIRFLOW_CTX_DAG_ID='ETL_toll_data' AIRFLOW_CTX_TASK_ID='postgresload' AIRFLOW_CTX_EXECUTION_DATE='2025-09-28T10:53:25.390997+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-09-28T10:53:25.390997+00:00'
+[2025-09-28T11:53:44.062+0100] {taskinstance.py:731} INFO - ::endgroup::
+[2025-09-28T11:53:44.115+0100] {logging_mixin.py:190} WARNING - /home/engineer/project/airflow_home/dags/ETL_toll_data.py:38 UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+[2025-09-28T11:53:44.118+0100] {taskinstance.py:3310} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_home/dags/ETL_toll_data.py", line 38, in load_to_postgres
+    df.to_sql("car_details", engine, if_exists="replace", index=False)
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/pandas/util/_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/pandas/core/generic.py", line 3106, in to_sql
+    return sql.to_sql(
+           ^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/pandas/io/sql.py", line 844, in to_sql
+    return pandas_sql.to_sql(
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/pandas/io/sql.py", line 2840, in to_sql
+    table.create()
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/pandas/io/sql.py", line 986, in create
+    if self.exists():
+       ^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/pandas/io/sql.py", line 972, in exists
+    return self.pd_sql.has_table(self.name, self.schema)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/pandas/io/sql.py", line 2855, in has_table
+    return len(self.execute(query, [name]).fetchall()) > 0
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/pandas/io/sql.py", line 2662, in execute
+    cur = self.con.cursor()
+          ^^^^^^^^^^^^^^^
+AttributeError: 'Engine' object has no attribute 'cursor'
+[2025-09-28T11:53:44.134+0100] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=ETL_toll_data, task_id=postgresload, run_id=manual__2025-09-28T10:53:25.390997+00:00, execution_date=20250928T105325, start_date=20250928T105343, end_date=20250928T105344
+[2025-09-28T11:53:44.146+0100] {logging_mixin.py:190} WARNING - /home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/utils/email.py:155 RemovedInAirflow3Warning: Fetching SMTP credentials from configuration variables will be deprecated in a future release. Please set credentials using a connection instead.
+[2025-09-28T11:53:44.146+0100] {configuration.py:1058} WARNING - section/key [smtp/smtp_user] not found in config
+[2025-09-28T11:53:44.146+0100] {email.py:272} INFO - Email alerting: attempt 1
+[2025-09-28T11:53:44.149+0100] {configuration.py:1058} WARNING - section/key [smtp/smtp_user] not found in config
+[2025-09-28T11:53:44.149+0100] {email.py:272} INFO - Email alerting: attempt 1
+[2025-09-28T11:53:44.149+0100] {taskinstance.py:1234} ERROR - Failed to send email to: ['thengineer@data.com']
+Traceback (most recent call last):
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3158, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3182, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_home/dags/ETL_toll_data.py", line 38, in load_to_postgres
+    df.to_sql("car_details", engine, if_exists="replace", index=False)
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/pandas/util/_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/pandas/core/generic.py", line 3106, in to_sql
+    return sql.to_sql(
+           ^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/pandas/io/sql.py", line 844, in to_sql
+    return pandas_sql.to_sql(
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/pandas/io/sql.py", line 2840, in to_sql
+    table.create()
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/pandas/io/sql.py", line 986, in create
+    if self.exists():
+       ^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/pandas/io/sql.py", line 972, in exists
+    return self.pd_sql.has_table(self.name, self.schema)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/pandas/io/sql.py", line 2855, in has_table
+    return len(self.execute(query, [name]).fetchall()) > 0
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/pandas/io/sql.py", line 2662, in execute
+    cur = self.con.cursor()
+          ^^^^^^^^^^^^^^^
+AttributeError: 'Engine' object has no attribute 'cursor'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 1442, in _email_alert
+    send_email(task.email, subject, html_content)
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/utils/email.py", line 80, in send_email
+    return backend(
+           ^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/utils/email.py", line 155, in send_email_smtp
+    send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/utils/email.py", line 274, in send_mime_email
+    smtp_conn = _get_smtp_connection(smtp_host, smtp_port, smtp_timeout, smtp_ssl)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/utils/email.py", line 318, in _get_smtp_connection
+    return smtplib.SMTP(host=host, port=port, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/socket.py", line 852, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.12/socket.py", line 837, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 1232, in _handle_failure
+    task_instance.email_alert(error, failure_context["task"])
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3604, in email_alert
+    _email_alert(task_instance=self, exception=exception, task=task)
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 1444, in _email_alert
+    send_email(task.email, subject, html_content_err)
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/utils/email.py", line 80, in send_email
+    return backend(
+           ^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/utils/email.py", line 155, in send_email_smtp
+    send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/utils/email.py", line 274, in send_mime_email
+    smtp_conn = _get_smtp_connection(smtp_host, smtp_port, smtp_timeout, smtp_ssl)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/utils/email.py", line 318, in _get_smtp_connection
+    return smtplib.SMTP(host=host, port=port, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/socket.py", line 852, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.12/socket.py", line 837, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+[2025-09-28T11:53:44.169+0100] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-09-28T11:53:44.169+0100] {standard_task_runner.py:124} ERROR - Failed to execute job 31 for task postgresload ('Engine' object has no attribute 'cursor'; 1171)
+Traceback (most recent call last):
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/utils/cli.py", line 115, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3004, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3158, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3182, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_home/dags/ETL_toll_data.py", line 38, in load_to_postgres
+    df.to_sql("car_details", engine, if_exists="replace", index=False)
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/pandas/util/_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/pandas/core/generic.py", line 3106, in to_sql
+    return sql.to_sql(
+           ^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/pandas/io/sql.py", line 844, in to_sql
+    return pandas_sql.to_sql(
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/pandas/io/sql.py", line 2840, in to_sql
+    table.create()
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/pandas/io/sql.py", line 986, in create
+    if self.exists():
+       ^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/pandas/io/sql.py", line 972, in exists
+    return self.pd_sql.has_table(self.name, self.schema)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/pandas/io/sql.py", line 2855, in has_table
+    return len(self.execute(query, [name]).fetchall()) > 0
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/pandas/io/sql.py", line 2662, in execute
+    cur = self.con.cursor()
+          ^^^^^^^^^^^^^^^
+AttributeError: 'Engine' object has no attribute 'cursor'
+[2025-09-28T11:53:44.202+0100] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2025-09-28T11:53:44.223+0100] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-09-28T11:53:44.224+0100] {local_task_job_runner.py:245} INFO - ::endgroup::

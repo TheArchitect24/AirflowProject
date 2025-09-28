@@ -1,0 +1,270 @@
+[2025-09-28T12:20:27.592+0100] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-09-28T12:20:27.600+0100] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ETL_toll_data.postgresload manual__2025-09-28T11:15:14.308897+00:00 [queued]>
+[2025-09-28T12:20:27.605+0100] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ETL_toll_data.postgresload manual__2025-09-28T11:15:14.308897+00:00 [queued]>
+[2025-09-28T12:20:27.605+0100] {taskinstance.py:2865} INFO - Starting attempt 2 of 2
+[2025-09-28T12:20:27.622+0100] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): postgresload> on 2025-09-28 11:15:14.308897+00:00
+[2025-09-28T12:20:27.630+0100] {standard_task_runner.py:72} INFO - Started process 10318 to run task
+[2025-09-28T12:20:27.638+0100] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'ETL_toll_data', 'postgresload', 'manual__2025-09-28T11:15:14.308897+00:00', '--job-id', '44', '--raw', '--subdir', 'DAGS_FOLDER/ETL_toll_data.py', '--cfg-path', '/tmp/tmpem2uhe8i']
+[2025-09-28T12:20:27.642+0100] {standard_task_runner.py:105} INFO - Job 44: Subtask postgresload
+[2025-09-28T12:20:27.685+0100] {task_command.py:467} INFO - Running <TaskInstance: ETL_toll_data.postgresload manual__2025-09-28T11:15:14.308897+00:00 [running]> on host AZZ-PTT-1.localdomain
+[2025-09-28T12:20:27.760+0100] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='kennethnebe@gmail.com' AIRFLOW_CTX_DAG_OWNER='The Engineer' AIRFLOW_CTX_DAG_ID='ETL_toll_data' AIRFLOW_CTX_TASK_ID='postgresload' AIRFLOW_CTX_EXECUTION_DATE='2025-09-28T11:15:14.308897+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-09-28T11:15:14.308897+00:00'
+[2025-09-28T12:20:27.761+0100] {taskinstance.py:731} INFO - ::endgroup::
+[2025-09-28T12:20:27.813+0100] {taskinstance.py:3310} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 1910, in _execute_context
+    self.dialect.do_execute(
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.InsufficientPrivilege: permission denied for schema public
+LINE 2: CREATE TABLE car_details (
+                     ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_home/dags/ETL_toll_data.py", line 39, in load_to_postgres
+    df.to_sql("car_details", engine, if_exists="replace", index=False)
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/pandas/util/_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/pandas/core/generic.py", line 3008, in to_sql
+    return sql.to_sql(
+           ^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/pandas/io/sql.py", line 788, in to_sql
+    return pandas_sql.to_sql(
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/pandas/io/sql.py", line 1948, in to_sql
+    table = self.prep_table(
+            ^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/pandas/io/sql.py", line 1852, in prep_table
+    table.create()
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/pandas/io/sql.py", line 936, in create
+    self._execute_create()
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/pandas/io/sql.py", line 922, in _execute_create
+    self.table.create(bind=self.pd_sql.con)
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/sqlalchemy/sql/schema.py", line 962, in create
+    bind._run_ddl_visitor(ddl.SchemaGenerator, self, checkfirst=checkfirst)
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 2221, in _run_ddl_visitor
+    visitorcallable(self.dialect, self, **kwargs).traverse_single(element)
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/sqlalchemy/sql/visitors.py", line 524, in traverse_single
+    return meth(obj, **kw)
+           ^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/sqlalchemy/sql/ddl.py", line 899, in visit_table
+    self.connection.execute(
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 1385, in execute
+    return meth(self, multiparams, params, _EMPTY_EXECUTION_OPTS)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/sqlalchemy/sql/ddl.py", line 80, in _execute_on_connection
+    return connection._execute_ddl(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 1477, in _execute_ddl
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 1953, in _execute_context
+    self._handle_dbapi_exception(
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 2134, in _handle_dbapi_exception
+    util.raise_(
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 1910, in _execute_context
+    self.dialect.do_execute(
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.InsufficientPrivilege) permission denied for schema public
+LINE 2: CREATE TABLE car_details (
+                     ^
+
+[SQL: 
+CREATE TABLE car_details (
+	id BIGINT, 
+	timestamp TEXT, 
+	vehicle_number BIGINT, 
+	vehicle_type TEXT, 
+	type TEXT, 
+	code TEXT, 
+	vin BIGINT, 
+	tin BIGINT, 
+	plate TEXT
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+[2025-09-28T12:20:27.822+0100] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=ETL_toll_data, task_id=postgresload, run_id=manual__2025-09-28T11:15:14.308897+00:00, execution_date=20250928T111514, start_date=20250928T112027, end_date=20250928T112027
+[2025-09-28T12:20:27.833+0100] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-09-28T12:20:27.833+0100] {standard_task_runner.py:124} ERROR - Failed to execute job 44 for task postgresload ((psycopg2.errors.InsufficientPrivilege) permission denied for schema public
+LINE 2: CREATE TABLE car_details (
+                     ^
+
+[SQL: 
+CREATE TABLE car_details (
+	id BIGINT, 
+	timestamp TEXT, 
+	vehicle_number BIGINT, 
+	vehicle_type TEXT, 
+	type TEXT, 
+	code TEXT, 
+	vin BIGINT, 
+	tin BIGINT, 
+	plate TEXT
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/14/f405); 10318)
+Traceback (most recent call last):
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 1910, in _execute_context
+    self.dialect.do_execute(
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.InsufficientPrivilege: permission denied for schema public
+LINE 2: CREATE TABLE car_details (
+                     ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/utils/cli.py", line 115, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3004, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3158, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3182, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_home/dags/ETL_toll_data.py", line 39, in load_to_postgres
+    df.to_sql("car_details", engine, if_exists="replace", index=False)
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/pandas/util/_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/pandas/core/generic.py", line 3008, in to_sql
+    return sql.to_sql(
+           ^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/pandas/io/sql.py", line 788, in to_sql
+    return pandas_sql.to_sql(
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/pandas/io/sql.py", line 1948, in to_sql
+    table = self.prep_table(
+            ^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/pandas/io/sql.py", line 1852, in prep_table
+    table.create()
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/pandas/io/sql.py", line 936, in create
+    self._execute_create()
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/pandas/io/sql.py", line 922, in _execute_create
+    self.table.create(bind=self.pd_sql.con)
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/sqlalchemy/sql/schema.py", line 962, in create
+    bind._run_ddl_visitor(ddl.SchemaGenerator, self, checkfirst=checkfirst)
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 2221, in _run_ddl_visitor
+    visitorcallable(self.dialect, self, **kwargs).traverse_single(element)
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/sqlalchemy/sql/visitors.py", line 524, in traverse_single
+    return meth(obj, **kw)
+           ^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/sqlalchemy/sql/ddl.py", line 899, in visit_table
+    self.connection.execute(
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 1385, in execute
+    return meth(self, multiparams, params, _EMPTY_EXECUTION_OPTS)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/sqlalchemy/sql/ddl.py", line 80, in _execute_on_connection
+    return connection._execute_ddl(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 1477, in _execute_ddl
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 1953, in _execute_context
+    self._handle_dbapi_exception(
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 2134, in _handle_dbapi_exception
+    util.raise_(
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 1910, in _execute_context
+    self.dialect.do_execute(
+  File "/home/engineer/project/airflow_env/lib/python3.12/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.InsufficientPrivilege) permission denied for schema public
+LINE 2: CREATE TABLE car_details (
+                     ^
+
+[SQL: 
+CREATE TABLE car_details (
+	id BIGINT, 
+	timestamp TEXT, 
+	vehicle_number BIGINT, 
+	vehicle_type TEXT, 
+	type TEXT, 
+	code TEXT, 
+	vin BIGINT, 
+	tin BIGINT, 
+	plate TEXT
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+[2025-09-28T12:20:27.852+0100] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2025-09-28T12:20:27.861+0100] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-09-28T12:20:27.862+0100] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -1,0 +1,20 @@
+[2025-09-28T10:21:27.716+0100] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-09-28T10:21:27.777+0100] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ETL_toll_data.transform_data manual__2025-09-28T09:21:17.553074+00:00 [queued]>
+[2025-09-28T10:21:27.782+0100] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ETL_toll_data.transform_data manual__2025-09-28T09:21:17.553074+00:00 [queued]>
+[2025-09-28T10:21:27.782+0100] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2025-09-28T10:21:27.792+0100] {taskinstance.py:2888} INFO - Executing <Task(BashOperator): transform_data> on 2025-09-28 09:21:17.553074+00:00
+[2025-09-28T10:21:27.794+0100] {standard_task_runner.py:72} INFO - Started process 7693 to run task
+[2025-09-28T10:21:27.796+0100] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'ETL_toll_data', 'transform_data', 'manual__2025-09-28T09:21:17.553074+00:00', '--job-id', '9', '--raw', '--subdir', 'DAGS_FOLDER/ETL_toll_data.py', '--cfg-path', '/tmp/tmp22eit4tk']
+[2025-09-28T10:21:27.797+0100] {standard_task_runner.py:105} INFO - Job 9: Subtask transform_data
+[2025-09-28T10:21:27.823+0100] {task_command.py:467} INFO - Running <TaskInstance: ETL_toll_data.transform_data manual__2025-09-28T09:21:17.553074+00:00 [running]> on host AZZ-PTT-1.localdomain
+[2025-09-28T10:21:27.867+0100] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='thengineer@data.com' AIRFLOW_CTX_DAG_OWNER='The Engineer' AIRFLOW_CTX_DAG_ID='ETL_toll_data' AIRFLOW_CTX_TASK_ID='transform_data' AIRFLOW_CTX_EXECUTION_DATE='2025-09-28T09:21:17.553074+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-09-28T09:21:17.553074+00:00'
+[2025-09-28T10:21:27.868+0100] {taskinstance.py:731} INFO - ::endgroup::
+[2025-09-28T10:21:27.876+0100] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-09-28T10:21:27.877+0100] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', "paste -d',' /home/engineer/project/tolldata/cleaned/extracted_data.csv <(cut -d',' -f4-9 /home/engineer/project/tolldata/cleaned/extracted_data.csv | tr 'a-z' 'A-Z') | cut -d',' -f1-3,10-15 > /home/engineer/project/tolldata/cleaned/transformed_data.csv"]
+[2025-09-28T10:21:27.881+0100] {subprocess.py:86} INFO - Output:
+[2025-09-28T10:21:27.888+0100] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-09-28T10:21:27.902+0100] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-09-28T10:21:27.902+0100] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=ETL_toll_data, task_id=transform_data, run_id=manual__2025-09-28T09:21:17.553074+00:00, execution_date=20250928T092117, start_date=20250928T092127, end_date=20250928T092127
+[2025-09-28T10:21:27.930+0100] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-09-28T10:21:27.937+0100] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-09-28T10:21:27.937+0100] {local_task_job_runner.py:245} INFO - ::endgroup::
