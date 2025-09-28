@@ -1,9 +1,8 @@
-# This Airflow project contains 2 projects:
-# 1. ETL Toll Data Pipeline
-# 2. Server Access Log Processing
+This Airflow project contains 2 projects:
+1. ETL Toll Data Pipeline
+2. Server Access Log Processing
 
 # 🚦 ETL Toll Data Pipeline with Apache Airflow
-
 This project demonstrates an ETL (Extract, Transform, Load) pipeline built with Apache Airflow to process toll data from multiple file formats and load it into a PostgreSQL database. Bash and PythonOperators are combined in this pipeline.
 ---
 ## 📌 Project Overview
