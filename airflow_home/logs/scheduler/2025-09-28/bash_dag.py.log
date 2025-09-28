@@ -2232,3 +2232,416 @@
 [2025-09-28T15:46:28.095+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:46:28.095+0100] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-09-28T15:46:28.111+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:46:28.111+0100] {dag.py:4180} INFO - Setting next_dagrun for my-first-bash-dag to 2025-09-28 00:00:00+00:00, run_after=2025-09-29 00:00:00+00:00
 [2025-09-28T15:46:28.132+0100] {processor.py:208} INFO - Processing /home/engineer/project/airflow_home/dags/bash_dag.py took 0.079 seconds
+[2025-09-28T15:46:58.633+0100] {processor.py:186} INFO - Started process (PID=22211) to work on /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:46:58.633+0100] {processor.py:914} INFO - Processing file /home/engineer/project/airflow_home/dags/bash_dag.py for tasks to queue
+[2025-09-28T15:46:58.635+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:46:58.634+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:46:58.641+0100] {processor.py:925} INFO - DAG(s) 'my-first-bash-dag' retrieved from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:46:58.656+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:46:58.656+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-28T15:46:58.668+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:46:58.668+0100] {dag.py:4180} INFO - Setting next_dagrun for my-first-bash-dag to 2025-09-28 00:00:00+00:00, run_after=2025-09-29 00:00:00+00:00
+[2025-09-28T15:46:58.684+0100] {processor.py:208} INFO - Processing /home/engineer/project/airflow_home/dags/bash_dag.py took 0.057 seconds
+[2025-09-28T15:47:29.203+0100] {processor.py:186} INFO - Started process (PID=22324) to work on /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:47:29.204+0100] {processor.py:914} INFO - Processing file /home/engineer/project/airflow_home/dags/bash_dag.py for tasks to queue
+[2025-09-28T15:47:29.206+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:47:29.206+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:47:29.214+0100] {processor.py:925} INFO - DAG(s) 'my-first-bash-dag' retrieved from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:47:29.230+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:47:29.230+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-28T15:47:29.242+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:47:29.242+0100] {dag.py:4180} INFO - Setting next_dagrun for my-first-bash-dag to 2025-09-28 00:00:00+00:00, run_after=2025-09-29 00:00:00+00:00
+[2025-09-28T15:47:29.256+0100] {processor.py:208} INFO - Processing /home/engineer/project/airflow_home/dags/bash_dag.py took 0.059 seconds
+[2025-09-28T15:47:59.967+0100] {processor.py:186} INFO - Started process (PID=22502) to work on /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:47:59.968+0100] {processor.py:914} INFO - Processing file /home/engineer/project/airflow_home/dags/bash_dag.py for tasks to queue
+[2025-09-28T15:47:59.970+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:47:59.969+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:47:59.977+0100] {processor.py:925} INFO - DAG(s) 'my-first-bash-dag' retrieved from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:47:59.992+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:47:59.992+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-28T15:48:00.004+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:48:00.004+0100] {dag.py:4180} INFO - Setting next_dagrun for my-first-bash-dag to 2025-09-28 00:00:00+00:00, run_after=2025-09-29 00:00:00+00:00
+[2025-09-28T15:48:00.020+0100] {processor.py:208} INFO - Processing /home/engineer/project/airflow_home/dags/bash_dag.py took 0.058 seconds
+[2025-09-28T15:48:30.433+0100] {processor.py:186} INFO - Started process (PID=22695) to work on /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:48:30.435+0100] {processor.py:914} INFO - Processing file /home/engineer/project/airflow_home/dags/bash_dag.py for tasks to queue
+[2025-09-28T15:48:30.437+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:48:30.436+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:48:30.445+0100] {processor.py:925} INFO - DAG(s) 'my-first-bash-dag' retrieved from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:48:30.461+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:48:30.461+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-28T15:48:30.474+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:48:30.474+0100] {dag.py:4180} INFO - Setting next_dagrun for my-first-bash-dag to 2025-09-28 00:00:00+00:00, run_after=2025-09-29 00:00:00+00:00
+[2025-09-28T15:48:30.492+0100] {processor.py:208} INFO - Processing /home/engineer/project/airflow_home/dags/bash_dag.py took 0.064 seconds
+[2025-09-28T15:49:01.024+0100] {processor.py:186} INFO - Started process (PID=22890) to work on /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:49:01.026+0100] {processor.py:914} INFO - Processing file /home/engineer/project/airflow_home/dags/bash_dag.py for tasks to queue
+[2025-09-28T15:49:01.030+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:49:01.029+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:49:01.050+0100] {processor.py:925} INFO - DAG(s) 'my-first-bash-dag' retrieved from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:49:01.087+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:49:01.087+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-28T15:49:01.115+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:49:01.115+0100] {dag.py:4180} INFO - Setting next_dagrun for my-first-bash-dag to 2025-09-28 00:00:00+00:00, run_after=2025-09-29 00:00:00+00:00
+[2025-09-28T15:49:01.143+0100] {processor.py:208} INFO - Processing /home/engineer/project/airflow_home/dags/bash_dag.py took 0.133 seconds
+[2025-09-28T15:49:31.508+0100] {processor.py:186} INFO - Started process (PID=23276) to work on /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:49:31.510+0100] {processor.py:914} INFO - Processing file /home/engineer/project/airflow_home/dags/bash_dag.py for tasks to queue
+[2025-09-28T15:49:31.512+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:49:31.511+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:49:31.519+0100] {processor.py:925} INFO - DAG(s) 'my-first-bash-dag' retrieved from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:49:31.536+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:49:31.536+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-28T15:49:31.549+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:49:31.549+0100] {dag.py:4180} INFO - Setting next_dagrun for my-first-bash-dag to 2025-09-28 00:00:00+00:00, run_after=2025-09-29 00:00:00+00:00
+[2025-09-28T15:49:31.564+0100] {processor.py:208} INFO - Processing /home/engineer/project/airflow_home/dags/bash_dag.py took 0.062 seconds
+[2025-09-28T15:50:02.130+0100] {processor.py:186} INFO - Started process (PID=23526) to work on /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:50:02.137+0100] {processor.py:914} INFO - Processing file /home/engineer/project/airflow_home/dags/bash_dag.py for tasks to queue
+[2025-09-28T15:50:02.139+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:50:02.138+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:50:02.146+0100] {processor.py:925} INFO - DAG(s) 'my-first-bash-dag' retrieved from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:50:02.160+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:50:02.160+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-28T15:50:02.172+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:50:02.172+0100] {dag.py:4180} INFO - Setting next_dagrun for my-first-bash-dag to 2025-09-28 00:00:00+00:00, run_after=2025-09-29 00:00:00+00:00
+[2025-09-28T15:50:02.187+0100] {processor.py:208} INFO - Processing /home/engineer/project/airflow_home/dags/bash_dag.py took 0.062 seconds
+[2025-09-28T15:50:32.701+0100] {processor.py:186} INFO - Started process (PID=23940) to work on /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:50:32.704+0100] {processor.py:914} INFO - Processing file /home/engineer/project/airflow_home/dags/bash_dag.py for tasks to queue
+[2025-09-28T15:50:32.705+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:50:32.705+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:50:32.712+0100] {processor.py:925} INFO - DAG(s) 'my-first-bash-dag' retrieved from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:50:32.727+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:50:32.727+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-28T15:50:32.739+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:50:32.739+0100] {dag.py:4180} INFO - Setting next_dagrun for my-first-bash-dag to 2025-09-28 00:00:00+00:00, run_after=2025-09-29 00:00:00+00:00
+[2025-09-28T15:50:32.754+0100] {processor.py:208} INFO - Processing /home/engineer/project/airflow_home/dags/bash_dag.py took 0.060 seconds
+[2025-09-28T15:51:03.177+0100] {processor.py:186} INFO - Started process (PID=24356) to work on /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:51:03.184+0100] {processor.py:914} INFO - Processing file /home/engineer/project/airflow_home/dags/bash_dag.py for tasks to queue
+[2025-09-28T15:51:03.186+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:51:03.186+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:51:03.193+0100] {processor.py:925} INFO - DAG(s) 'my-first-bash-dag' retrieved from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:51:03.208+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:51:03.208+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-28T15:51:03.220+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:51:03.219+0100] {dag.py:4180} INFO - Setting next_dagrun for my-first-bash-dag to 2025-09-28 00:00:00+00:00, run_after=2025-09-29 00:00:00+00:00
+[2025-09-28T15:51:03.235+0100] {processor.py:208} INFO - Processing /home/engineer/project/airflow_home/dags/bash_dag.py took 0.063 seconds
+[2025-09-28T15:51:34.119+0100] {processor.py:186} INFO - Started process (PID=24566) to work on /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:51:34.126+0100] {processor.py:914} INFO - Processing file /home/engineer/project/airflow_home/dags/bash_dag.py for tasks to queue
+[2025-09-28T15:51:34.129+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:51:34.128+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:51:34.138+0100] {processor.py:925} INFO - DAG(s) 'my-first-bash-dag' retrieved from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:51:34.160+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:51:34.160+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-28T15:51:34.176+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:51:34.176+0100] {dag.py:4180} INFO - Setting next_dagrun for my-first-bash-dag to 2025-09-28 00:00:00+00:00, run_after=2025-09-29 00:00:00+00:00
+[2025-09-28T15:51:34.193+0100] {processor.py:208} INFO - Processing /home/engineer/project/airflow_home/dags/bash_dag.py took 0.080 seconds
+[2025-09-28T15:52:04.293+0100] {processor.py:186} INFO - Started process (PID=24679) to work on /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:52:04.300+0100] {processor.py:914} INFO - Processing file /home/engineer/project/airflow_home/dags/bash_dag.py for tasks to queue
+[2025-09-28T15:52:04.301+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:52:04.301+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:52:04.309+0100] {processor.py:925} INFO - DAG(s) 'my-first-bash-dag' retrieved from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:52:04.323+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:52:04.323+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-28T15:52:04.336+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:52:04.336+0100] {dag.py:4180} INFO - Setting next_dagrun for my-first-bash-dag to 2025-09-28 00:00:00+00:00, run_after=2025-09-29 00:00:00+00:00
+[2025-09-28T15:52:04.352+0100] {processor.py:208} INFO - Processing /home/engineer/project/airflow_home/dags/bash_dag.py took 0.064 seconds
+[2025-09-28T15:52:34.855+0100] {processor.py:186} INFO - Started process (PID=24793) to work on /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:52:34.863+0100] {processor.py:914} INFO - Processing file /home/engineer/project/airflow_home/dags/bash_dag.py for tasks to queue
+[2025-09-28T15:52:34.865+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:52:34.865+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:52:34.872+0100] {processor.py:925} INFO - DAG(s) 'my-first-bash-dag' retrieved from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:52:34.886+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:52:34.886+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-28T15:52:34.899+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:52:34.898+0100] {dag.py:4180} INFO - Setting next_dagrun for my-first-bash-dag to 2025-09-28 00:00:00+00:00, run_after=2025-09-29 00:00:00+00:00
+[2025-09-28T15:52:34.914+0100] {processor.py:208} INFO - Processing /home/engineer/project/airflow_home/dags/bash_dag.py took 0.063 seconds
+[2025-09-28T15:53:05.418+0100] {processor.py:186} INFO - Started process (PID=24906) to work on /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:53:05.425+0100] {processor.py:914} INFO - Processing file /home/engineer/project/airflow_home/dags/bash_dag.py for tasks to queue
+[2025-09-28T15:53:05.427+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:53:05.427+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:53:05.435+0100] {processor.py:925} INFO - DAG(s) 'my-first-bash-dag' retrieved from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:53:05.450+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:53:05.450+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-28T15:53:05.467+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:53:05.467+0100] {dag.py:4180} INFO - Setting next_dagrun for my-first-bash-dag to 2025-09-28 00:00:00+00:00, run_after=2025-09-29 00:00:00+00:00
+[2025-09-28T15:53:05.486+0100] {processor.py:208} INFO - Processing /home/engineer/project/airflow_home/dags/bash_dag.py took 0.072 seconds
+[2025-09-28T15:53:35.879+0100] {processor.py:186} INFO - Started process (PID=25020) to work on /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:53:35.886+0100] {processor.py:914} INFO - Processing file /home/engineer/project/airflow_home/dags/bash_dag.py for tasks to queue
+[2025-09-28T15:53:35.888+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:53:35.887+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:53:35.895+0100] {processor.py:925} INFO - DAG(s) 'my-first-bash-dag' retrieved from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:53:35.909+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:53:35.909+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-28T15:53:35.921+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:53:35.921+0100] {dag.py:4180} INFO - Setting next_dagrun for my-first-bash-dag to 2025-09-28 00:00:00+00:00, run_after=2025-09-29 00:00:00+00:00
+[2025-09-28T15:53:35.937+0100] {processor.py:208} INFO - Processing /home/engineer/project/airflow_home/dags/bash_dag.py took 0.063 seconds
+[2025-09-28T15:54:06.447+0100] {processor.py:186} INFO - Started process (PID=25133) to work on /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:54:06.448+0100] {processor.py:914} INFO - Processing file /home/engineer/project/airflow_home/dags/bash_dag.py for tasks to queue
+[2025-09-28T15:54:06.450+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:54:06.449+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:54:06.458+0100] {processor.py:925} INFO - DAG(s) 'my-first-bash-dag' retrieved from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:54:06.477+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:54:06.476+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-28T15:54:06.490+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:54:06.489+0100] {dag.py:4180} INFO - Setting next_dagrun for my-first-bash-dag to 2025-09-28 00:00:00+00:00, run_after=2025-09-29 00:00:00+00:00
+[2025-09-28T15:54:06.507+0100] {processor.py:208} INFO - Processing /home/engineer/project/airflow_home/dags/bash_dag.py took 0.066 seconds
+[2025-09-28T15:54:37.007+0100] {processor.py:186} INFO - Started process (PID=25274) to work on /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:54:37.014+0100] {processor.py:914} INFO - Processing file /home/engineer/project/airflow_home/dags/bash_dag.py for tasks to queue
+[2025-09-28T15:54:37.017+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:54:37.016+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:54:37.025+0100] {processor.py:925} INFO - DAG(s) 'my-first-bash-dag' retrieved from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:54:37.042+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:54:37.042+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-28T15:54:37.055+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:54:37.055+0100] {dag.py:4180} INFO - Setting next_dagrun for my-first-bash-dag to 2025-09-28 00:00:00+00:00, run_after=2025-09-29 00:00:00+00:00
+[2025-09-28T15:54:37.070+0100] {processor.py:208} INFO - Processing /home/engineer/project/airflow_home/dags/bash_dag.py took 0.069 seconds
+[2025-09-28T15:55:07.567+0100] {processor.py:186} INFO - Started process (PID=25381) to work on /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:55:07.574+0100] {processor.py:914} INFO - Processing file /home/engineer/project/airflow_home/dags/bash_dag.py for tasks to queue
+[2025-09-28T15:55:07.576+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:55:07.576+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:55:07.584+0100] {processor.py:925} INFO - DAG(s) 'my-first-bash-dag' retrieved from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:55:07.600+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:55:07.599+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-28T15:55:07.614+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:55:07.614+0100] {dag.py:4180} INFO - Setting next_dagrun for my-first-bash-dag to 2025-09-28 00:00:00+00:00, run_after=2025-09-29 00:00:00+00:00
+[2025-09-28T15:55:07.630+0100] {processor.py:208} INFO - Processing /home/engineer/project/airflow_home/dags/bash_dag.py took 0.068 seconds
+[2025-09-28T15:55:38.132+0100] {processor.py:186} INFO - Started process (PID=25495) to work on /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:55:38.139+0100] {processor.py:914} INFO - Processing file /home/engineer/project/airflow_home/dags/bash_dag.py for tasks to queue
+[2025-09-28T15:55:38.141+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:55:38.141+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:55:38.148+0100] {processor.py:925} INFO - DAG(s) 'my-first-bash-dag' retrieved from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:55:38.163+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:55:38.163+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-28T15:55:38.175+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:55:38.175+0100] {dag.py:4180} INFO - Setting next_dagrun for my-first-bash-dag to 2025-09-28 00:00:00+00:00, run_after=2025-09-29 00:00:00+00:00
+[2025-09-28T15:55:38.189+0100] {processor.py:208} INFO - Processing /home/engineer/project/airflow_home/dags/bash_dag.py took 0.063 seconds
+[2025-09-28T15:56:08.598+0100] {processor.py:186} INFO - Started process (PID=25608) to work on /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:56:08.605+0100] {processor.py:914} INFO - Processing file /home/engineer/project/airflow_home/dags/bash_dag.py for tasks to queue
+[2025-09-28T15:56:08.607+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:56:08.607+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:56:08.614+0100] {processor.py:925} INFO - DAG(s) 'my-first-bash-dag' retrieved from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:56:08.629+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:56:08.628+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-28T15:56:08.640+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:56:08.640+0100] {dag.py:4180} INFO - Setting next_dagrun for my-first-bash-dag to 2025-09-28 00:00:00+00:00, run_after=2025-09-29 00:00:00+00:00
+[2025-09-28T15:56:08.654+0100] {processor.py:208} INFO - Processing /home/engineer/project/airflow_home/dags/bash_dag.py took 0.061 seconds
+[2025-09-28T15:56:39.062+0100] {processor.py:186} INFO - Started process (PID=25722) to work on /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:56:39.069+0100] {processor.py:914} INFO - Processing file /home/engineer/project/airflow_home/dags/bash_dag.py for tasks to queue
+[2025-09-28T15:56:39.071+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:56:39.070+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:56:39.078+0100] {processor.py:925} INFO - DAG(s) 'my-first-bash-dag' retrieved from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:56:39.093+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:56:39.093+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-28T15:56:39.106+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:56:39.106+0100] {dag.py:4180} INFO - Setting next_dagrun for my-first-bash-dag to 2025-09-28 00:00:00+00:00, run_after=2025-09-29 00:00:00+00:00
+[2025-09-28T15:56:39.121+0100] {processor.py:208} INFO - Processing /home/engineer/project/airflow_home/dags/bash_dag.py took 0.065 seconds
+[2025-09-28T15:57:09.628+0100] {processor.py:186} INFO - Started process (PID=25835) to work on /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:57:09.635+0100] {processor.py:914} INFO - Processing file /home/engineer/project/airflow_home/dags/bash_dag.py for tasks to queue
+[2025-09-28T15:57:09.637+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:57:09.637+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:57:09.644+0100] {processor.py:925} INFO - DAG(s) 'my-first-bash-dag' retrieved from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:57:09.658+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:57:09.658+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-28T15:57:09.671+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:57:09.671+0100] {dag.py:4180} INFO - Setting next_dagrun for my-first-bash-dag to 2025-09-28 00:00:00+00:00, run_after=2025-09-29 00:00:00+00:00
+[2025-09-28T15:57:09.686+0100] {processor.py:208} INFO - Processing /home/engineer/project/airflow_home/dags/bash_dag.py took 0.064 seconds
+[2025-09-28T15:57:40.096+0100] {processor.py:186} INFO - Started process (PID=25949) to work on /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:57:40.103+0100] {processor.py:914} INFO - Processing file /home/engineer/project/airflow_home/dags/bash_dag.py for tasks to queue
+[2025-09-28T15:57:40.104+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:57:40.104+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:57:40.111+0100] {processor.py:925} INFO - DAG(s) 'my-first-bash-dag' retrieved from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:57:40.125+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:57:40.125+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-28T15:57:40.137+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:57:40.137+0100] {dag.py:4180} INFO - Setting next_dagrun for my-first-bash-dag to 2025-09-28 00:00:00+00:00, run_after=2025-09-29 00:00:00+00:00
+[2025-09-28T15:57:40.152+0100] {processor.py:208} INFO - Processing /home/engineer/project/airflow_home/dags/bash_dag.py took 0.062 seconds
+[2025-09-28T15:58:10.661+0100] {processor.py:186} INFO - Started process (PID=26062) to work on /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:58:10.662+0100] {processor.py:914} INFO - Processing file /home/engineer/project/airflow_home/dags/bash_dag.py for tasks to queue
+[2025-09-28T15:58:10.664+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:58:10.664+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:58:10.672+0100] {processor.py:925} INFO - DAG(s) 'my-first-bash-dag' retrieved from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:58:10.686+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:58:10.686+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-28T15:58:10.700+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:58:10.700+0100] {dag.py:4180} INFO - Setting next_dagrun for my-first-bash-dag to 2025-09-28 00:00:00+00:00, run_after=2025-09-29 00:00:00+00:00
+[2025-09-28T15:58:10.716+0100] {processor.py:208} INFO - Processing /home/engineer/project/airflow_home/dags/bash_dag.py took 0.061 seconds
+[2025-09-28T15:58:41.218+0100] {processor.py:186} INFO - Started process (PID=26176) to work on /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:58:41.225+0100] {processor.py:914} INFO - Processing file /home/engineer/project/airflow_home/dags/bash_dag.py for tasks to queue
+[2025-09-28T15:58:41.227+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:58:41.227+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:58:41.234+0100] {processor.py:925} INFO - DAG(s) 'my-first-bash-dag' retrieved from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:58:41.248+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:58:41.248+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-28T15:58:41.261+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:58:41.260+0100] {dag.py:4180} INFO - Setting next_dagrun for my-first-bash-dag to 2025-09-28 00:00:00+00:00, run_after=2025-09-29 00:00:00+00:00
+[2025-09-28T15:58:41.275+0100] {processor.py:208} INFO - Processing /home/engineer/project/airflow_home/dags/bash_dag.py took 0.062 seconds
+[2025-09-28T15:59:11.788+0100] {processor.py:186} INFO - Started process (PID=26290) to work on /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:59:11.790+0100] {processor.py:914} INFO - Processing file /home/engineer/project/airflow_home/dags/bash_dag.py for tasks to queue
+[2025-09-28T15:59:11.793+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:59:11.792+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:59:11.801+0100] {processor.py:925} INFO - DAG(s) 'my-first-bash-dag' retrieved from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:59:11.819+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:59:11.818+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-28T15:59:11.833+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:59:11.833+0100] {dag.py:4180} INFO - Setting next_dagrun for my-first-bash-dag to 2025-09-28 00:00:00+00:00, run_after=2025-09-29 00:00:00+00:00
+[2025-09-28T15:59:11.850+0100] {processor.py:208} INFO - Processing /home/engineer/project/airflow_home/dags/bash_dag.py took 0.068 seconds
+[2025-09-28T15:59:42.453+0100] {processor.py:186} INFO - Started process (PID=26427) to work on /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:59:42.461+0100] {processor.py:914} INFO - Processing file /home/engineer/project/airflow_home/dags/bash_dag.py for tasks to queue
+[2025-09-28T15:59:42.462+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:59:42.462+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:59:42.470+0100] {processor.py:925} INFO - DAG(s) 'my-first-bash-dag' retrieved from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T15:59:42.485+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:59:42.485+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-28T15:59:42.497+0100] {logging_mixin.py:190} INFO - [2025-09-28T15:59:42.497+0100] {dag.py:4180} INFO - Setting next_dagrun for my-first-bash-dag to 2025-09-28 00:00:00+00:00, run_after=2025-09-29 00:00:00+00:00
+[2025-09-28T15:59:42.513+0100] {processor.py:208} INFO - Processing /home/engineer/project/airflow_home/dags/bash_dag.py took 0.066 seconds
+[2025-09-28T16:00:13.013+0100] {processor.py:186} INFO - Started process (PID=26538) to work on /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:00:13.016+0100] {processor.py:914} INFO - Processing file /home/engineer/project/airflow_home/dags/bash_dag.py for tasks to queue
+[2025-09-28T16:00:13.017+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:00:13.017+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:00:13.024+0100] {processor.py:925} INFO - DAG(s) 'my-first-bash-dag' retrieved from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:00:13.039+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:00:13.039+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-28T16:00:13.051+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:00:13.051+0100] {dag.py:4180} INFO - Setting next_dagrun for my-first-bash-dag to 2025-09-28 00:00:00+00:00, run_after=2025-09-29 00:00:00+00:00
+[2025-09-28T16:00:13.066+0100] {processor.py:208} INFO - Processing /home/engineer/project/airflow_home/dags/bash_dag.py took 0.058 seconds
+[2025-09-28T16:00:43.575+0100] {processor.py:186} INFO - Started process (PID=26651) to work on /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:00:43.582+0100] {processor.py:914} INFO - Processing file /home/engineer/project/airflow_home/dags/bash_dag.py for tasks to queue
+[2025-09-28T16:00:43.584+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:00:43.584+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:00:43.591+0100] {processor.py:925} INFO - DAG(s) 'my-first-bash-dag' retrieved from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:00:43.606+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:00:43.606+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-28T16:00:43.618+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:00:43.618+0100] {dag.py:4180} INFO - Setting next_dagrun for my-first-bash-dag to 2025-09-28 00:00:00+00:00, run_after=2025-09-29 00:00:00+00:00
+[2025-09-28T16:00:43.632+0100] {processor.py:208} INFO - Processing /home/engineer/project/airflow_home/dags/bash_dag.py took 0.062 seconds
+[2025-09-28T16:01:14.145+0100] {processor.py:186} INFO - Started process (PID=26765) to work on /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:01:14.152+0100] {processor.py:914} INFO - Processing file /home/engineer/project/airflow_home/dags/bash_dag.py for tasks to queue
+[2025-09-28T16:01:14.154+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:01:14.154+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:01:14.162+0100] {processor.py:925} INFO - DAG(s) 'my-first-bash-dag' retrieved from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:01:14.180+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:01:14.179+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-28T16:01:14.194+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:01:14.194+0100] {dag.py:4180} INFO - Setting next_dagrun for my-first-bash-dag to 2025-09-28 00:00:00+00:00, run_after=2025-09-29 00:00:00+00:00
+[2025-09-28T16:01:14.212+0100] {processor.py:208} INFO - Processing /home/engineer/project/airflow_home/dags/bash_dag.py took 0.075 seconds
+[2025-09-28T16:01:44.724+0100] {processor.py:186} INFO - Started process (PID=26878) to work on /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:01:44.731+0100] {processor.py:914} INFO - Processing file /home/engineer/project/airflow_home/dags/bash_dag.py for tasks to queue
+[2025-09-28T16:01:44.733+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:01:44.733+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:01:44.740+0100] {processor.py:925} INFO - DAG(s) 'my-first-bash-dag' retrieved from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:01:44.755+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:01:44.755+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-28T16:01:44.767+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:01:44.766+0100] {dag.py:4180} INFO - Setting next_dagrun for my-first-bash-dag to 2025-09-28 00:00:00+00:00, run_after=2025-09-29 00:00:00+00:00
+[2025-09-28T16:01:44.782+0100] {processor.py:208} INFO - Processing /home/engineer/project/airflow_home/dags/bash_dag.py took 0.063 seconds
+[2025-09-28T16:02:15.302+0100] {processor.py:186} INFO - Started process (PID=26998) to work on /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:02:15.302+0100] {processor.py:914} INFO - Processing file /home/engineer/project/airflow_home/dags/bash_dag.py for tasks to queue
+[2025-09-28T16:02:15.304+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:02:15.304+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:02:15.311+0100] {processor.py:925} INFO - DAG(s) 'my-first-bash-dag' retrieved from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:02:15.326+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:02:15.326+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-28T16:02:15.337+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:02:15.337+0100] {dag.py:4180} INFO - Setting next_dagrun for my-first-bash-dag to 2025-09-28 00:00:00+00:00, run_after=2025-09-29 00:00:00+00:00
+[2025-09-28T16:02:15.351+0100] {processor.py:208} INFO - Processing /home/engineer/project/airflow_home/dags/bash_dag.py took 0.054 seconds
+[2025-09-28T16:02:45.876+0100] {processor.py:186} INFO - Started process (PID=27111) to work on /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:02:45.877+0100] {processor.py:914} INFO - Processing file /home/engineer/project/airflow_home/dags/bash_dag.py for tasks to queue
+[2025-09-28T16:02:45.879+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:02:45.879+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:02:45.886+0100] {processor.py:925} INFO - DAG(s) 'my-first-bash-dag' retrieved from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:02:45.900+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:02:45.900+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-28T16:02:45.912+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:02:45.912+0100] {dag.py:4180} INFO - Setting next_dagrun for my-first-bash-dag to 2025-09-28 00:00:00+00:00, run_after=2025-09-29 00:00:00+00:00
+[2025-09-28T16:02:45.928+0100] {processor.py:208} INFO - Processing /home/engineer/project/airflow_home/dags/bash_dag.py took 0.057 seconds
+[2025-09-28T16:03:16.440+0100] {processor.py:186} INFO - Started process (PID=27225) to work on /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:03:16.447+0100] {processor.py:914} INFO - Processing file /home/engineer/project/airflow_home/dags/bash_dag.py for tasks to queue
+[2025-09-28T16:03:16.449+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:03:16.449+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:03:16.456+0100] {processor.py:925} INFO - DAG(s) 'my-first-bash-dag' retrieved from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:03:16.470+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:03:16.470+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-28T16:03:16.482+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:03:16.482+0100] {dag.py:4180} INFO - Setting next_dagrun for my-first-bash-dag to 2025-09-28 00:00:00+00:00, run_after=2025-09-29 00:00:00+00:00
+[2025-09-28T16:03:16.497+0100] {processor.py:208} INFO - Processing /home/engineer/project/airflow_home/dags/bash_dag.py took 0.062 seconds
+[2025-09-28T16:03:47.023+0100] {processor.py:186} INFO - Started process (PID=27341) to work on /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:03:47.030+0100] {processor.py:914} INFO - Processing file /home/engineer/project/airflow_home/dags/bash_dag.py for tasks to queue
+[2025-09-28T16:03:47.032+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:03:47.032+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:03:47.039+0100] {processor.py:925} INFO - DAG(s) 'my-first-bash-dag' retrieved from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:03:47.053+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:03:47.053+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-28T16:03:47.066+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:03:47.066+0100] {dag.py:4180} INFO - Setting next_dagrun for my-first-bash-dag to 2025-09-28 00:00:00+00:00, run_after=2025-09-29 00:00:00+00:00
+[2025-09-28T16:03:47.082+0100] {processor.py:208} INFO - Processing /home/engineer/project/airflow_home/dags/bash_dag.py took 0.065 seconds
+[2025-09-28T16:04:17.493+0100] {processor.py:186} INFO - Started process (PID=27450) to work on /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:04:17.500+0100] {processor.py:914} INFO - Processing file /home/engineer/project/airflow_home/dags/bash_dag.py for tasks to queue
+[2025-09-28T16:04:17.502+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:04:17.502+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:04:17.509+0100] {processor.py:925} INFO - DAG(s) 'my-first-bash-dag' retrieved from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:04:17.524+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:04:17.524+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-28T16:04:17.537+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:04:17.537+0100] {dag.py:4180} INFO - Setting next_dagrun for my-first-bash-dag to 2025-09-28 00:00:00+00:00, run_after=2025-09-29 00:00:00+00:00
+[2025-09-28T16:04:17.554+0100] {processor.py:208} INFO - Processing /home/engineer/project/airflow_home/dags/bash_dag.py took 0.065 seconds
+[2025-09-28T16:04:48.068+0100] {processor.py:186} INFO - Started process (PID=27590) to work on /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:04:48.075+0100] {processor.py:914} INFO - Processing file /home/engineer/project/airflow_home/dags/bash_dag.py for tasks to queue
+[2025-09-28T16:04:48.077+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:04:48.077+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:04:48.085+0100] {processor.py:925} INFO - DAG(s) 'my-first-bash-dag' retrieved from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:04:48.101+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:04:48.101+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-28T16:04:48.115+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:04:48.114+0100] {dag.py:4180} INFO - Setting next_dagrun for my-first-bash-dag to 2025-09-28 00:00:00+00:00, run_after=2025-09-29 00:00:00+00:00
+[2025-09-28T16:04:48.131+0100] {processor.py:208} INFO - Processing /home/engineer/project/airflow_home/dags/bash_dag.py took 0.069 seconds
+[2025-09-28T16:05:18.535+0100] {processor.py:186} INFO - Started process (PID=27704) to work on /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:05:18.539+0100] {processor.py:914} INFO - Processing file /home/engineer/project/airflow_home/dags/bash_dag.py for tasks to queue
+[2025-09-28T16:05:18.541+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:05:18.541+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:05:18.548+0100] {processor.py:925} INFO - DAG(s) 'my-first-bash-dag' retrieved from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:05:18.563+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:05:18.563+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-28T16:05:18.574+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:05:18.574+0100] {dag.py:4180} INFO - Setting next_dagrun for my-first-bash-dag to 2025-09-28 00:00:00+00:00, run_after=2025-09-29 00:00:00+00:00
+[2025-09-28T16:05:18.591+0100] {processor.py:208} INFO - Processing /home/engineer/project/airflow_home/dags/bash_dag.py took 0.061 seconds
+[2025-09-28T16:05:48.999+0100] {processor.py:186} INFO - Started process (PID=27817) to work on /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:05:49.002+0100] {processor.py:914} INFO - Processing file /home/engineer/project/airflow_home/dags/bash_dag.py for tasks to queue
+[2025-09-28T16:05:49.004+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:05:49.004+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:05:49.011+0100] {processor.py:925} INFO - DAG(s) 'my-first-bash-dag' retrieved from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:05:49.025+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:05:49.025+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-28T16:05:49.037+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:05:49.037+0100] {dag.py:4180} INFO - Setting next_dagrun for my-first-bash-dag to 2025-09-28 00:00:00+00:00, run_after=2025-09-29 00:00:00+00:00
+[2025-09-28T16:05:49.055+0100] {processor.py:208} INFO - Processing /home/engineer/project/airflow_home/dags/bash_dag.py took 0.061 seconds
+[2025-09-28T16:06:19.567+0100] {processor.py:186} INFO - Started process (PID=28003) to work on /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:06:19.575+0100] {processor.py:914} INFO - Processing file /home/engineer/project/airflow_home/dags/bash_dag.py for tasks to queue
+[2025-09-28T16:06:19.577+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:06:19.577+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:06:19.584+0100] {processor.py:925} INFO - DAG(s) 'my-first-bash-dag' retrieved from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:06:19.600+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:06:19.600+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-28T16:06:19.613+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:06:19.613+0100] {dag.py:4180} INFO - Setting next_dagrun for my-first-bash-dag to 2025-09-28 00:00:00+00:00, run_after=2025-09-29 00:00:00+00:00
+[2025-09-28T16:06:19.631+0100] {processor.py:208} INFO - Processing /home/engineer/project/airflow_home/dags/bash_dag.py took 0.069 seconds
+[2025-09-28T16:06:50.138+0100] {processor.py:186} INFO - Started process (PID=28260) to work on /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:06:50.139+0100] {processor.py:914} INFO - Processing file /home/engineer/project/airflow_home/dags/bash_dag.py for tasks to queue
+[2025-09-28T16:06:50.141+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:06:50.140+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:06:50.148+0100] {processor.py:925} INFO - DAG(s) 'my-first-bash-dag' retrieved from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:06:50.162+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:06:50.162+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-28T16:06:50.175+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:06:50.175+0100] {dag.py:4180} INFO - Setting next_dagrun for my-first-bash-dag to 2025-09-28 00:00:00+00:00, run_after=2025-09-29 00:00:00+00:00
+[2025-09-28T16:06:50.189+0100] {processor.py:208} INFO - Processing /home/engineer/project/airflow_home/dags/bash_dag.py took 0.057 seconds
+[2025-09-28T16:07:20.715+0100] {processor.py:186} INFO - Started process (PID=28518) to work on /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:07:20.715+0100] {processor.py:914} INFO - Processing file /home/engineer/project/airflow_home/dags/bash_dag.py for tasks to queue
+[2025-09-28T16:07:20.717+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:07:20.717+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:07:20.724+0100] {processor.py:925} INFO - DAG(s) 'my-first-bash-dag' retrieved from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:07:20.739+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:07:20.739+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-28T16:07:20.751+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:07:20.751+0100] {dag.py:4180} INFO - Setting next_dagrun for my-first-bash-dag to 2025-09-28 00:00:00+00:00, run_after=2025-09-29 00:00:00+00:00
+[2025-09-28T16:07:20.766+0100] {processor.py:208} INFO - Processing /home/engineer/project/airflow_home/dags/bash_dag.py took 0.057 seconds
+[2025-09-28T16:07:51.184+0100] {processor.py:186} INFO - Started process (PID=28770) to work on /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:07:51.185+0100] {processor.py:914} INFO - Processing file /home/engineer/project/airflow_home/dags/bash_dag.py for tasks to queue
+[2025-09-28T16:07:51.187+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:07:51.186+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:07:51.194+0100] {processor.py:925} INFO - DAG(s) 'my-first-bash-dag' retrieved from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:07:51.208+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:07:51.208+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-28T16:07:51.220+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:07:51.220+0100] {dag.py:4180} INFO - Setting next_dagrun for my-first-bash-dag to 2025-09-28 00:00:00+00:00, run_after=2025-09-29 00:00:00+00:00
+[2025-09-28T16:07:51.236+0100] {processor.py:208} INFO - Processing /home/engineer/project/airflow_home/dags/bash_dag.py took 0.057 seconds
+[2025-09-28T16:08:21.662+0100] {processor.py:186} INFO - Started process (PID=29027) to work on /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:08:21.663+0100] {processor.py:914} INFO - Processing file /home/engineer/project/airflow_home/dags/bash_dag.py for tasks to queue
+[2025-09-28T16:08:21.665+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:08:21.665+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:08:21.673+0100] {processor.py:925} INFO - DAG(s) 'my-first-bash-dag' retrieved from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:08:21.688+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:08:21.688+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-28T16:08:21.700+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:08:21.700+0100] {dag.py:4180} INFO - Setting next_dagrun for my-first-bash-dag to 2025-09-28 00:00:00+00:00, run_after=2025-09-29 00:00:00+00:00
+[2025-09-28T16:08:21.715+0100] {processor.py:208} INFO - Processing /home/engineer/project/airflow_home/dags/bash_dag.py took 0.058 seconds
+[2025-09-28T16:08:52.128+0100] {processor.py:186} INFO - Started process (PID=29336) to work on /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:08:52.135+0100] {processor.py:914} INFO - Processing file /home/engineer/project/airflow_home/dags/bash_dag.py for tasks to queue
+[2025-09-28T16:08:52.136+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:08:52.136+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:08:52.144+0100] {processor.py:925} INFO - DAG(s) 'my-first-bash-dag' retrieved from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:08:52.158+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:08:52.158+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-28T16:08:52.170+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:08:52.170+0100] {dag.py:4180} INFO - Setting next_dagrun for my-first-bash-dag to 2025-09-28 00:00:00+00:00, run_after=2025-09-29 00:00:00+00:00
+[2025-09-28T16:08:52.185+0100] {processor.py:208} INFO - Processing /home/engineer/project/airflow_home/dags/bash_dag.py took 0.062 seconds
+[2025-09-28T16:09:22.890+0100] {processor.py:186} INFO - Started process (PID=29593) to work on /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:09:22.891+0100] {processor.py:914} INFO - Processing file /home/engineer/project/airflow_home/dags/bash_dag.py for tasks to queue
+[2025-09-28T16:09:22.893+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:09:22.892+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:09:22.900+0100] {processor.py:925} INFO - DAG(s) 'my-first-bash-dag' retrieved from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:09:22.916+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:09:22.916+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-28T16:09:22.928+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:09:22.928+0100] {dag.py:4180} INFO - Setting next_dagrun for my-first-bash-dag to 2025-09-28 00:00:00+00:00, run_after=2025-09-29 00:00:00+00:00
+[2025-09-28T16:09:22.943+0100] {processor.py:208} INFO - Processing /home/engineer/project/airflow_home/dags/bash_dag.py took 0.057 seconds
+[2025-09-28T16:10:21.218+0100] {processor.py:186} INFO - Started process (PID=29751) to work on /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:10:21.225+0100] {processor.py:914} INFO - Processing file /home/engineer/project/airflow_home/dags/bash_dag.py for tasks to queue
+[2025-09-28T16:10:21.226+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:10:21.226+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:10:21.233+0100] {processor.py:925} INFO - DAG(s) 'my-first-bash-dag' retrieved from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:10:21.248+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:10:21.248+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-28T16:10:21.260+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:10:21.260+0100] {dag.py:4180} INFO - Setting next_dagrun for my-first-bash-dag to 2025-09-28 00:00:00+00:00, run_after=2025-09-29 00:00:00+00:00
+[2025-09-28T16:10:21.276+0100] {processor.py:208} INFO - Processing /home/engineer/project/airflow_home/dags/bash_dag.py took 0.064 seconds
+[2025-09-28T16:10:51.556+0100] {processor.py:186} INFO - Started process (PID=30003) to work on /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:10:51.557+0100] {processor.py:914} INFO - Processing file /home/engineer/project/airflow_home/dags/bash_dag.py for tasks to queue
+[2025-09-28T16:10:51.558+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:10:51.558+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:10:51.565+0100] {processor.py:925} INFO - DAG(s) 'my-first-bash-dag' retrieved from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:10:51.579+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:10:51.579+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-28T16:10:51.592+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:10:51.591+0100] {dag.py:4180} INFO - Setting next_dagrun for my-first-bash-dag to 2025-09-28 00:00:00+00:00, run_after=2025-09-29 00:00:00+00:00
+[2025-09-28T16:10:51.606+0100] {processor.py:208} INFO - Processing /home/engineer/project/airflow_home/dags/bash_dag.py took 0.055 seconds
+[2025-09-28T16:11:24.097+0100] {processor.py:186} INFO - Started process (PID=30291) to work on /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:11:24.099+0100] {processor.py:914} INFO - Processing file /home/engineer/project/airflow_home/dags/bash_dag.py for tasks to queue
+[2025-09-28T16:11:24.101+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:11:24.101+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:11:24.110+0100] {processor.py:925} INFO - DAG(s) 'my-first-bash-dag' retrieved from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:11:24.126+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:11:24.126+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-28T16:11:24.139+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:11:24.139+0100] {dag.py:4180} INFO - Setting next_dagrun for my-first-bash-dag to 2025-09-28 00:00:00+00:00, run_after=2025-09-29 00:00:00+00:00
+[2025-09-28T16:11:24.154+0100] {processor.py:208} INFO - Processing /home/engineer/project/airflow_home/dags/bash_dag.py took 0.063 seconds
+[2025-09-28T16:11:54.798+0100] {processor.py:186} INFO - Started process (PID=30549) to work on /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:11:54.799+0100] {processor.py:914} INFO - Processing file /home/engineer/project/airflow_home/dags/bash_dag.py for tasks to queue
+[2025-09-28T16:11:54.801+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:11:54.800+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:11:54.811+0100] {processor.py:925} INFO - DAG(s) 'my-first-bash-dag' retrieved from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:11:54.829+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:11:54.829+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-28T16:11:54.842+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:11:54.842+0100] {dag.py:4180} INFO - Setting next_dagrun for my-first-bash-dag to 2025-09-28 00:00:00+00:00, run_after=2025-09-29 00:00:00+00:00
+[2025-09-28T16:11:54.858+0100] {processor.py:208} INFO - Processing /home/engineer/project/airflow_home/dags/bash_dag.py took 0.067 seconds
+[2025-09-28T16:12:25.293+0100] {processor.py:186} INFO - Started process (PID=30810) to work on /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:12:25.294+0100] {processor.py:914} INFO - Processing file /home/engineer/project/airflow_home/dags/bash_dag.py for tasks to queue
+[2025-09-28T16:12:25.296+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:12:25.296+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:12:25.303+0100] {processor.py:925} INFO - DAG(s) 'my-first-bash-dag' retrieved from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:12:25.318+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:12:25.318+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-28T16:12:25.330+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:12:25.329+0100] {dag.py:4180} INFO - Setting next_dagrun for my-first-bash-dag to 2025-09-28 00:00:00+00:00, run_after=2025-09-29 00:00:00+00:00
+[2025-09-28T16:12:25.344+0100] {processor.py:208} INFO - Processing /home/engineer/project/airflow_home/dags/bash_dag.py took 0.057 seconds
+[2025-09-28T16:12:55.888+0100] {processor.py:186} INFO - Started process (PID=31068) to work on /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:12:55.888+0100] {processor.py:914} INFO - Processing file /home/engineer/project/airflow_home/dags/bash_dag.py for tasks to queue
+[2025-09-28T16:12:55.890+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:12:55.890+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:12:55.899+0100] {processor.py:925} INFO - DAG(s) 'my-first-bash-dag' retrieved from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:12:55.913+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:12:55.913+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-28T16:12:55.925+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:12:55.925+0100] {dag.py:4180} INFO - Setting next_dagrun for my-first-bash-dag to 2025-09-28 00:00:00+00:00, run_after=2025-09-29 00:00:00+00:00
+[2025-09-28T16:12:55.941+0100] {processor.py:208} INFO - Processing /home/engineer/project/airflow_home/dags/bash_dag.py took 0.058 seconds
+[2025-09-28T16:13:26.479+0100] {processor.py:186} INFO - Started process (PID=31324) to work on /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:13:26.487+0100] {processor.py:914} INFO - Processing file /home/engineer/project/airflow_home/dags/bash_dag.py for tasks to queue
+[2025-09-28T16:13:26.489+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:13:26.488+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:13:26.496+0100] {processor.py:925} INFO - DAG(s) 'my-first-bash-dag' retrieved from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:13:26.511+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:13:26.511+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-28T16:13:26.526+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:13:26.525+0100] {dag.py:4180} INFO - Setting next_dagrun for my-first-bash-dag to 2025-09-28 00:00:00+00:00, run_after=2025-09-29 00:00:00+00:00
+[2025-09-28T16:13:26.541+0100] {processor.py:208} INFO - Processing /home/engineer/project/airflow_home/dags/bash_dag.py took 0.066 seconds
+[2025-09-28T16:13:57.191+0100] {processor.py:186} INFO - Started process (PID=31663) to work on /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:13:57.198+0100] {processor.py:914} INFO - Processing file /home/engineer/project/airflow_home/dags/bash_dag.py for tasks to queue
+[2025-09-28T16:13:57.200+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:13:57.199+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:13:57.207+0100] {processor.py:925} INFO - DAG(s) 'my-first-bash-dag' retrieved from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:13:57.222+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:13:57.222+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-28T16:13:57.235+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:13:57.235+0100] {dag.py:4180} INFO - Setting next_dagrun for my-first-bash-dag to 2025-09-28 00:00:00+00:00, run_after=2025-09-29 00:00:00+00:00
+[2025-09-28T16:13:57.253+0100] {processor.py:208} INFO - Processing /home/engineer/project/airflow_home/dags/bash_dag.py took 0.067 seconds
+[2025-09-28T16:14:28.681+0100] {processor.py:186} INFO - Started process (PID=31782) to work on /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:14:28.682+0100] {processor.py:914} INFO - Processing file /home/engineer/project/airflow_home/dags/bash_dag.py for tasks to queue
+[2025-09-28T16:14:28.684+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:14:28.684+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:14:28.692+0100] {processor.py:925} INFO - DAG(s) 'my-first-bash-dag' retrieved from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:14:28.708+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:14:28.707+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-28T16:14:28.720+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:14:28.720+0100] {dag.py:4180} INFO - Setting next_dagrun for my-first-bash-dag to 2025-09-28 00:00:00+00:00, run_after=2025-09-29 00:00:00+00:00
+[2025-09-28T16:14:28.736+0100] {processor.py:208} INFO - Processing /home/engineer/project/airflow_home/dags/bash_dag.py took 0.060 seconds
+[2025-09-28T16:14:59.109+0100] {processor.py:186} INFO - Started process (PID=31896) to work on /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:14:59.111+0100] {processor.py:914} INFO - Processing file /home/engineer/project/airflow_home/dags/bash_dag.py for tasks to queue
+[2025-09-28T16:14:59.112+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:14:59.112+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:14:59.120+0100] {processor.py:925} INFO - DAG(s) 'my-first-bash-dag' retrieved from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:14:59.135+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:14:59.134+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-28T16:14:59.146+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:14:59.146+0100] {dag.py:4180} INFO - Setting next_dagrun for my-first-bash-dag to 2025-09-28 00:00:00+00:00, run_after=2025-09-29 00:00:00+00:00
+[2025-09-28T16:14:59.161+0100] {processor.py:208} INFO - Processing /home/engineer/project/airflow_home/dags/bash_dag.py took 0.057 seconds
+[2025-09-28T16:15:30.464+0100] {processor.py:186} INFO - Started process (PID=32043) to work on /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:15:30.465+0100] {processor.py:914} INFO - Processing file /home/engineer/project/airflow_home/dags/bash_dag.py for tasks to queue
+[2025-09-28T16:15:30.467+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:15:30.466+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:15:30.474+0100] {processor.py:925} INFO - DAG(s) 'my-first-bash-dag' retrieved from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:15:30.490+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:15:30.490+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-28T16:15:30.503+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:15:30.503+0100] {dag.py:4180} INFO - Setting next_dagrun for my-first-bash-dag to 2025-09-28 00:00:00+00:00, run_after=2025-09-29 00:00:00+00:00
+[2025-09-28T16:15:30.520+0100] {processor.py:208} INFO - Processing /home/engineer/project/airflow_home/dags/bash_dag.py took 0.062 seconds
+[2025-09-28T16:16:00.943+0100] {processor.py:186} INFO - Started process (PID=32157) to work on /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:16:00.944+0100] {processor.py:914} INFO - Processing file /home/engineer/project/airflow_home/dags/bash_dag.py for tasks to queue
+[2025-09-28T16:16:00.946+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:16:00.945+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:16:00.953+0100] {processor.py:925} INFO - DAG(s) 'my-first-bash-dag' retrieved from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:16:00.969+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:16:00.969+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-28T16:16:00.983+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:16:00.983+0100] {dag.py:4180} INFO - Setting next_dagrun for my-first-bash-dag to 2025-09-28 00:00:00+00:00, run_after=2025-09-29 00:00:00+00:00
+[2025-09-28T16:16:00.997+0100] {processor.py:208} INFO - Processing /home/engineer/project/airflow_home/dags/bash_dag.py took 0.061 seconds
+[2025-09-28T16:16:31.098+0100] {processor.py:186} INFO - Started process (PID=32264) to work on /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:16:31.105+0100] {processor.py:914} INFO - Processing file /home/engineer/project/airflow_home/dags/bash_dag.py for tasks to queue
+[2025-09-28T16:16:31.107+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:16:31.107+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:16:31.115+0100] {processor.py:925} INFO - DAG(s) 'my-first-bash-dag' retrieved from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:16:31.132+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:16:31.131+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-28T16:16:31.145+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:16:31.145+0100] {dag.py:4180} INFO - Setting next_dagrun for my-first-bash-dag to 2025-09-28 00:00:00+00:00, run_after=2025-09-29 00:00:00+00:00
+[2025-09-28T16:16:31.161+0100] {processor.py:208} INFO - Processing /home/engineer/project/airflow_home/dags/bash_dag.py took 0.069 seconds
+[2025-09-28T16:17:01.258+0100] {processor.py:186} INFO - Started process (PID=32570) to work on /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:17:01.259+0100] {processor.py:914} INFO - Processing file /home/engineer/project/airflow_home/dags/bash_dag.py for tasks to queue
+[2025-09-28T16:17:01.261+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:17:01.261+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:17:01.269+0100] {processor.py:925} INFO - DAG(s) 'my-first-bash-dag' retrieved from /home/engineer/project/airflow_home/dags/bash_dag.py
+[2025-09-28T16:17:01.285+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:17:01.285+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-28T16:17:01.299+0100] {logging_mixin.py:190} INFO - [2025-09-28T16:17:01.299+0100] {dag.py:4180} INFO - Setting next_dagrun for my-first-bash-dag to 2025-09-28 00:00:00+00:00, run_after=2025-09-29 00:00:00+00:00
+[2025-09-28T16:17:01.315+0100] {processor.py:208} INFO - Processing /home/engineer/project/airflow_home/dags/bash_dag.py took 0.063 seconds

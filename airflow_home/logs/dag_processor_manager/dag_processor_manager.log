@@ -7186,3 +7186,841 @@ File Path                                                                     PI
 /home/engineer/project/airflow_home/dags/dummy_dag.py                                                  1           0  0.10s           2025-09-28T14:45:56                      12
 /home/engineer/project/airflow_home/dags/bash_dag.py                                                   1           0  0.10s           2025-09-28T14:45:57                      12
 ================================================================================
+[2025-09-28T15:46:52.441+0100] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/engineer/project/airflow_home/dags/ETL_toll_data.py                                              1           0  0.50s           2025-09-28T14:46:52                      12
+/home/engineer/project/airflow_home/dags/simple_hello_world.py                                         1           0  0.10s           2025-09-28T14:46:24                      12
+/home/engineer/project/airflow_home/dags/bash_dag.py                                                   1           0  0.10s           2025-09-28T14:46:28                      12
+/home/engineer/project/airflow_home/dags/etl_server_access_log_processing.py                           1           0  0.10s           2025-09-28T14:46:29                      12
+/home/engineer/project/airflow_home/dags/my_first_dag.py                                               1           0  0.10s           2025-09-28T14:46:31                      12
+/home/engineer/project/airflow_home/dags/dummy_dag.py                                                  1           0  0.10s           2025-09-28T14:46:27                      12
+/home/engineer/project/airflow_home/dags/testdag.py                                                    1           0  0.10s           2025-09-28T14:46:30                      12
+================================================================================
+[2025-09-28T15:47:23.213+0100] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/engineer/project/airflow_home/dags/ETL_toll_data.py                                              1           0  0.70s           2025-09-28T14:47:23                      12
+/home/engineer/project/airflow_home/dags/bash_dag.py                                                   1           0  0.10s           2025-09-28T14:46:58                      12
+/home/engineer/project/airflow_home/dags/simple_hello_world.py                                         1           0  0.10s           2025-09-28T14:46:54                      12
+/home/engineer/project/airflow_home/dags/testdag.py                                                    1           0  0.10s           2025-09-28T14:47:00                      12
+/home/engineer/project/airflow_home/dags/dummy_dag.py                                                  1           0  0.10s           2025-09-28T14:46:57                      12
+/home/engineer/project/airflow_home/dags/my_first_dag.py                                               1           0  0.10s           2025-09-28T14:47:02                      12
+/home/engineer/project/airflow_home/dags/etl_server_access_log_processing.py                           1           0  0.10s           2025-09-28T14:46:59                      12
+================================================================================
+[2025-09-28T15:47:53.778+0100] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/engineer/project/airflow_home/dags/ETL_toll_data.py                                              1           0  0.50s           2025-09-28T14:47:53                      12
+/home/engineer/project/airflow_home/dags/bash_dag.py                                                   1           0  0.10s           2025-09-28T14:47:29                      12
+/home/engineer/project/airflow_home/dags/my_first_dag.py                                               1           0  0.10s           2025-09-28T14:47:32                      12
+/home/engineer/project/airflow_home/dags/simple_hello_world.py                                         1           0  0.10s           2025-09-28T14:47:25                      12
+/home/engineer/project/airflow_home/dags/etl_server_access_log_processing.py                           1           0  0.10s           2025-09-28T14:47:30                      12
+/home/engineer/project/airflow_home/dags/dummy_dag.py                                                  1           0  0.10s           2025-09-28T14:47:28                      12
+/home/engineer/project/airflow_home/dags/testdag.py                                                    1           0  0.10s           2025-09-28T14:47:31                      12
+================================================================================
+[2025-09-28T15:48:24.244+0100] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/engineer/project/airflow_home/dags/ETL_toll_data.py                                              1           0  0.40s           2025-09-28T14:48:24                      12
+/home/engineer/project/airflow_home/dags/simple_hello_world.py                                         1           0  0.10s           2025-09-28T14:47:55                      12
+/home/engineer/project/airflow_home/dags/my_first_dag.py                                               1           0  0.10s           2025-09-28T14:48:03                      12
+/home/engineer/project/airflow_home/dags/dummy_dag.py                                                  1           0  0.10s           2025-09-28T14:47:58                      12
+/home/engineer/project/airflow_home/dags/testdag.py                                                    1           0  0.10s           2025-09-28T14:48:02                      12
+/home/engineer/project/airflow_home/dags/bash_dag.py                                                   1           0  0.10s           2025-09-28T14:48:00                      12
+/home/engineer/project/airflow_home/dags/etl_server_access_log_processing.py                           1           0  0.10s           2025-09-28T14:48:01                      12
+================================================================================
+[2025-09-28T15:48:54.811+0100] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/engineer/project/airflow_home/dags/ETL_toll_data.py                                              1           0  0.50s           2025-09-28T14:48:54                      12
+/home/engineer/project/airflow_home/dags/my_first_dag.py                                               1           0  0.10s           2025-09-28T14:48:34                      12
+/home/engineer/project/airflow_home/dags/bash_dag.py                                                   1           0  0.10s           2025-09-28T14:48:30                      12
+/home/engineer/project/airflow_home/dags/etl_server_access_log_processing.py                           1           0  0.10s           2025-09-28T14:48:31                      12
+/home/engineer/project/airflow_home/dags/testdag.py                                                    1           0  0.10s           2025-09-28T14:48:32                      12
+/home/engineer/project/airflow_home/dags/simple_hello_world.py                                         1           0  0.10s           2025-09-28T14:48:26                      12
+/home/engineer/project/airflow_home/dags/dummy_dag.py                                                  1           0  0.10s           2025-09-28T14:48:29                      12
+================================================================================
+[2025-09-28T15:49:25.379+0100] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/engineer/project/airflow_home/dags/ETL_toll_data.py                                              1           0  0.50s           2025-09-28T14:49:25                      12
+/home/engineer/project/airflow_home/dags/bash_dag.py                                                   1           0  0.20s           2025-09-28T14:49:01                      12
+/home/engineer/project/airflow_home/dags/etl_server_access_log_processing.py                           1           0  0.20s           2025-09-28T14:49:02                      12
+/home/engineer/project/airflow_home/dags/testdag.py                                                    1           0  0.20s           2025-09-28T14:49:03                      12
+/home/engineer/project/airflow_home/dags/my_first_dag.py                                               1           0  0.10s           2025-09-28T14:49:04                      12
+/home/engineer/project/airflow_home/dags/dummy_dag.py                                                  1           0  0.10s           2025-09-28T14:48:59                      12
+/home/engineer/project/airflow_home/dags/simple_hello_world.py                                         1           0  0.10s           2025-09-28T14:48:56                      12
+================================================================================
+[2025-09-28T15:49:55.943+0100] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/engineer/project/airflow_home/dags/ETL_toll_data.py                                              1           0  0.50s           2025-09-28T14:49:55                      12
+/home/engineer/project/airflow_home/dags/my_first_dag.py                                               1           0  0.10s           2025-09-28T14:49:35                      12
+/home/engineer/project/airflow_home/dags/testdag.py                                                    1           0  0.10s           2025-09-28T14:49:34                      12
+/home/engineer/project/airflow_home/dags/dummy_dag.py                                                  1           0  0.10s           2025-09-28T14:49:30                      12
+/home/engineer/project/airflow_home/dags/bash_dag.py                                                   1           0  0.10s           2025-09-28T14:49:31                      12
+/home/engineer/project/airflow_home/dags/simple_hello_world.py                                         1           0  0.10s           2025-09-28T14:49:27                      12
+/home/engineer/project/airflow_home/dags/etl_server_access_log_processing.py                           1           0  0.10s           2025-09-28T14:49:32                      12
+================================================================================
+[2025-09-28T15:50:23.288+0100] {manager.py:821} INFO - Searching for files in /home/engineer/project/airflow_home/dags
+[2025-09-28T15:50:23.290+0100] {manager.py:824} INFO - There are 7 files in /home/engineer/project/airflow_home/dags
+[2025-09-28T15:50:26.514+0100] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/engineer/project/airflow_home/dags/ETL_toll_data.py                                              1           0  0.51s           2025-09-28T14:50:26                      12
+/home/engineer/project/airflow_home/dags/simple_hello_world.py                                         1           0  0.10s           2025-09-28T14:49:58                      12
+/home/engineer/project/airflow_home/dags/etl_server_access_log_processing.py                           1           0  0.10s           2025-09-28T14:50:03                      12
+/home/engineer/project/airflow_home/dags/dummy_dag.py                                                  1           0  0.10s           2025-09-28T14:50:01                      12
+/home/engineer/project/airflow_home/dags/my_first_dag.py                                               1           0  0.10s           2025-09-28T14:50:05                      12
+/home/engineer/project/airflow_home/dags/bash_dag.py                                                   1           0  0.10s           2025-09-28T14:50:02                      12
+/home/engineer/project/airflow_home/dags/testdag.py                                                    1           0  0.10s           2025-09-28T14:50:04                      12
+================================================================================
+[2025-09-28T15:50:56.981+0100] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/engineer/project/airflow_home/dags/ETL_toll_data.py                                              1           0  0.40s           2025-09-28T14:50:56                      12
+/home/engineer/project/airflow_home/dags/simple_hello_world.py                                         1           0  0.10s           2025-09-28T14:50:28                      12
+/home/engineer/project/airflow_home/dags/bash_dag.py                                                   1           0  0.10s           2025-09-28T14:50:32                      12
+/home/engineer/project/airflow_home/dags/dummy_dag.py                                                  1           0  0.10s           2025-09-28T14:50:31                      12
+/home/engineer/project/airflow_home/dags/testdag.py                                                    1           0  0.10s           2025-09-28T14:50:35                      12
+/home/engineer/project/airflow_home/dags/etl_server_access_log_processing.py                           1           0  0.10s           2025-09-28T14:50:34                      12
+/home/engineer/project/airflow_home/dags/my_first_dag.py                                               1           0  0.10s           2025-09-28T14:50:36                      12
+================================================================================
+[2025-09-28T15:51:27.543+0100] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/engineer/project/airflow_home/dags/ETL_toll_data.py                                              1           0  0.50s           2025-09-28T14:51:27                      12
+/home/engineer/project/airflow_home/dags/dummy_dag.py                                                  1           0  0.10s           2025-09-28T14:51:02                      12
+/home/engineer/project/airflow_home/dags/simple_hello_world.py                                         1           0  0.10s           2025-09-28T14:50:59                      12
+/home/engineer/project/airflow_home/dags/etl_server_access_log_processing.py                           1           0  0.10s           2025-09-28T14:51:04                      12
+/home/engineer/project/airflow_home/dags/my_first_dag.py                                               1           0  0.10s           2025-09-28T14:51:06                      12
+/home/engineer/project/airflow_home/dags/bash_dag.py                                                   1           0  0.10s           2025-09-28T14:51:03                      12
+/home/engineer/project/airflow_home/dags/testdag.py                                                    1           0  0.10s           2025-09-28T14:51:05                      12
+================================================================================
+[2025-09-28T15:51:58.113+0100] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/engineer/project/airflow_home/dags/ETL_toll_data.py                                              1           0  0.51s           2025-09-28T14:51:58                      12
+/home/engineer/project/airflow_home/dags/dummy_dag.py                                                  1           0  0.10s           2025-09-28T14:51:32                      12
+/home/engineer/project/airflow_home/dags/bash_dag.py                                                   1           0  0.10s           2025-09-28T14:51:34                      12
+/home/engineer/project/airflow_home/dags/simple_hello_world.py                                         1           0  0.10s           2025-09-28T14:51:29                      12
+/home/engineer/project/airflow_home/dags/etl_server_access_log_processing.py                           1           0  0.10s           2025-09-28T14:51:35                      12
+/home/engineer/project/airflow_home/dags/testdag.py                                                    1           0  0.10s           2025-09-28T14:51:36                      12
+/home/engineer/project/airflow_home/dags/my_first_dag.py                                               1           0  0.10s           2025-09-28T14:51:37                      12
+================================================================================
+[2025-09-28T15:52:28.674+0100] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/engineer/project/airflow_home/dags/ETL_toll_data.py                                              1           0  0.50s           2025-09-28T14:52:28                      12
+/home/engineer/project/airflow_home/dags/testdag.py                                                    1           0  0.10s           2025-09-28T14:52:06                      12
+/home/engineer/project/airflow_home/dags/simple_hello_world.py                                         1           0  0.10s           2025-09-28T14:52:00                      12
+/home/engineer/project/airflow_home/dags/dummy_dag.py                                                  1           0  0.10s           2025-09-28T14:52:03                      12
+/home/engineer/project/airflow_home/dags/my_first_dag.py                                               1           0  0.10s           2025-09-28T14:52:07                      12
+/home/engineer/project/airflow_home/dags/etl_server_access_log_processing.py                           1           0  0.10s           2025-09-28T14:52:05                      12
+/home/engineer/project/airflow_home/dags/bash_dag.py                                                   1           0  0.10s           2025-09-28T14:52:04                      12
+================================================================================
+[2025-09-28T15:52:59.234+0100] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/engineer/project/airflow_home/dags/ETL_toll_data.py                                              1           0  0.50s           2025-09-28T14:52:59                      12
+/home/engineer/project/airflow_home/dags/testdag.py                                                    1           0  0.10s           2025-09-28T14:52:37                      12
+/home/engineer/project/airflow_home/dags/bash_dag.py                                                   1           0  0.10s           2025-09-28T14:52:34                      12
+/home/engineer/project/airflow_home/dags/my_first_dag.py                                               1           0  0.10s           2025-09-28T14:52:38                      12
+/home/engineer/project/airflow_home/dags/etl_server_access_log_processing.py                           1           0  0.10s           2025-09-28T14:52:36                      12
+/home/engineer/project/airflow_home/dags/simple_hello_world.py                                         1           0  0.10s           2025-09-28T14:52:30                      12
+/home/engineer/project/airflow_home/dags/dummy_dag.py                                                  1           0  0.10s           2025-09-28T14:52:33                      12
+================================================================================
+[2025-09-28T15:53:29.696+0100] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/engineer/project/airflow_home/dags/ETL_toll_data.py                                              1           0  0.41s           2025-09-28T14:53:29                      12
+/home/engineer/project/airflow_home/dags/etl_server_access_log_processing.py                           1           0  0.10s           2025-09-28T14:53:06                      12
+/home/engineer/project/airflow_home/dags/dummy_dag.py                                                  1           0  0.10s           2025-09-28T14:53:04                      12
+/home/engineer/project/airflow_home/dags/simple_hello_world.py                                         1           0  0.10s           2025-09-28T14:53:01                      12
+/home/engineer/project/airflow_home/dags/testdag.py                                                    1           0  0.10s           2025-09-28T14:53:07                      12
+/home/engineer/project/airflow_home/dags/bash_dag.py                                                   1           0  0.10s           2025-09-28T14:53:05                      12
+/home/engineer/project/airflow_home/dags/my_first_dag.py                                               1           0  0.10s           2025-09-28T14:53:08                      12
+================================================================================
+[2025-09-28T15:54:00.258+0100] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/engineer/project/airflow_home/dags/ETL_toll_data.py                                              1           0  0.50s           2025-09-28T14:54:00                      12
+/home/engineer/project/airflow_home/dags/testdag.py                                                    1           0  0.10s           2025-09-28T14:53:38                      12
+/home/engineer/project/airflow_home/dags/dummy_dag.py                                                  1           0  0.10s           2025-09-28T14:53:34                      12
+/home/engineer/project/airflow_home/dags/my_first_dag.py                                               1           0  0.10s           2025-09-28T14:53:39                      12
+/home/engineer/project/airflow_home/dags/bash_dag.py                                                   1           0  0.10s           2025-09-28T14:53:35                      12
+/home/engineer/project/airflow_home/dags/etl_server_access_log_processing.py                           1           0  0.10s           2025-09-28T14:53:37                      12
+/home/engineer/project/airflow_home/dags/simple_hello_world.py                                         1           0  0.10s           2025-09-28T14:53:31                      12
+================================================================================
+[2025-09-28T15:54:30.821+0100] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/engineer/project/airflow_home/dags/ETL_toll_data.py                                              1           0  0.50s           2025-09-28T14:54:30                      12
+/home/engineer/project/airflow_home/dags/bash_dag.py                                                   1           0  0.10s           2025-09-28T14:54:06                      12
+/home/engineer/project/airflow_home/dags/my_first_dag.py                                               1           0  0.10s           2025-09-28T14:54:09                      12
+/home/engineer/project/airflow_home/dags/dummy_dag.py                                                  1           0  0.10s           2025-09-28T14:54:05                      12
+/home/engineer/project/airflow_home/dags/testdag.py                                                    1           0  0.10s           2025-09-28T14:54:08                      12
+/home/engineer/project/airflow_home/dags/simple_hello_world.py                                         1           0  0.10s           2025-09-28T14:54:02                      12
+/home/engineer/project/airflow_home/dags/etl_server_access_log_processing.py                           1           0  0.10s           2025-09-28T14:54:07                      12
+================================================================================
+[2025-09-28T15:55:01.382+0100] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/engineer/project/airflow_home/dags/ETL_toll_data.py                                              1           0  0.50s           2025-09-28T14:55:01                      12
+/home/engineer/project/airflow_home/dags/bash_dag.py                                                   1           0  0.10s           2025-09-28T14:54:37                      12
+/home/engineer/project/airflow_home/dags/dummy_dag.py                                                  1           0  0.10s           2025-09-28T14:54:35                      12
+/home/engineer/project/airflow_home/dags/simple_hello_world.py                                         1           0  0.10s           2025-09-28T14:54:32                      12
+/home/engineer/project/airflow_home/dags/my_first_dag.py                                               1           0  0.10s           2025-09-28T14:54:40                      12
+/home/engineer/project/airflow_home/dags/etl_server_access_log_processing.py                           1           0  0.10s           2025-09-28T14:54:38                      12
+/home/engineer/project/airflow_home/dags/testdag.py                                                    1           0  0.10s           2025-09-28T14:54:39                      12
+================================================================================
+[2025-09-28T15:55:23.670+0100] {manager.py:821} INFO - Searching for files in /home/engineer/project/airflow_home/dags
+[2025-09-28T15:55:23.672+0100] {manager.py:824} INFO - There are 7 files in /home/engineer/project/airflow_home/dags
+[2025-09-28T15:55:31.949+0100] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/engineer/project/airflow_home/dags/ETL_toll_data.py                                              1           0  0.51s           2025-09-28T14:55:31                      12
+/home/engineer/project/airflow_home/dags/my_first_dag.py                                               1           0  0.10s           2025-09-28T14:55:11                      12
+/home/engineer/project/airflow_home/dags/simple_hello_world.py                                         1           0  0.10s           2025-09-28T14:55:03                      12
+/home/engineer/project/airflow_home/dags/testdag.py                                                    1           0  0.10s           2025-09-28T14:55:09                      12
+/home/engineer/project/airflow_home/dags/etl_server_access_log_processing.py                           1           0  0.10s           2025-09-28T14:55:08                      12
+/home/engineer/project/airflow_home/dags/dummy_dag.py                                                  1           0  0.10s           2025-09-28T14:55:06                      12
+/home/engineer/project/airflow_home/dags/bash_dag.py                                                   1           0  0.10s           2025-09-28T14:55:07                      12
+================================================================================
+[2025-09-28T15:56:02.416+0100] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/engineer/project/airflow_home/dags/ETL_toll_data.py                                              1           0  0.40s           2025-09-28T14:56:02                      12
+/home/engineer/project/airflow_home/dags/testdag.py                                                    1           0  0.10s           2025-09-28T14:55:40                      12
+/home/engineer/project/airflow_home/dags/etl_server_access_log_processing.py                           1           0  0.10s           2025-09-28T14:55:39                      12
+/home/engineer/project/airflow_home/dags/dummy_dag.py                                                  1           0  0.10s           2025-09-28T14:55:37                      12
+/home/engineer/project/airflow_home/dags/simple_hello_world.py                                         1           0  0.10s           2025-09-28T14:55:34                      12
+/home/engineer/project/airflow_home/dags/bash_dag.py                                                   1           0  0.10s           2025-09-28T14:55:38                      12
+/home/engineer/project/airflow_home/dags/my_first_dag.py                                               1           0  0.10s           2025-09-28T14:55:41                      12
+================================================================================
+[2025-09-28T15:56:32.880+0100] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/engineer/project/airflow_home/dags/ETL_toll_data.py                                              1           0  0.41s           2025-09-28T14:56:32                      12
+/home/engineer/project/airflow_home/dags/my_first_dag.py                                               1           0  0.10s           2025-09-28T14:56:12                      12
+/home/engineer/project/airflow_home/dags/etl_server_access_log_processing.py                           1           0  0.10s           2025-09-28T14:56:09                      12
+/home/engineer/project/airflow_home/dags/testdag.py                                                    1           0  0.10s           2025-09-28T14:56:10                      12
+/home/engineer/project/airflow_home/dags/dummy_dag.py                                                  1           0  0.10s           2025-09-28T14:56:07                      12
+/home/engineer/project/airflow_home/dags/simple_hello_world.py                                         1           0  0.10s           2025-09-28T14:56:04                      12
+/home/engineer/project/airflow_home/dags/bash_dag.py                                                   1           0  0.10s           2025-09-28T14:56:08                      12
+================================================================================
+[2025-09-28T15:57:03.447+0100] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/engineer/project/airflow_home/dags/ETL_toll_data.py                                              1           0  0.51s           2025-09-28T14:57:03                      12
+/home/engineer/project/airflow_home/dags/testdag.py                                                    1           0  0.10s           2025-09-28T14:56:41                      12
+/home/engineer/project/airflow_home/dags/simple_hello_world.py                                         1           0  0.10s           2025-09-28T14:56:35                      12
+/home/engineer/project/airflow_home/dags/my_first_dag.py                                               1           0  0.10s           2025-09-28T14:56:42                      12
+/home/engineer/project/airflow_home/dags/dummy_dag.py                                                  1           0  0.10s           2025-09-28T14:56:38                      12
+/home/engineer/project/airflow_home/dags/etl_server_access_log_processing.py                           1           0  0.10s           2025-09-28T14:56:40                      12
+/home/engineer/project/airflow_home/dags/bash_dag.py                                                   1           0  0.10s           2025-09-28T14:56:39                      12
+================================================================================
+[2025-09-28T15:57:33.914+0100] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/engineer/project/airflow_home/dags/ETL_toll_data.py                                              1           0  0.41s           2025-09-28T14:57:33                      12
+/home/engineer/project/airflow_home/dags/simple_hello_world.py                                         1           0  0.10s           2025-09-28T14:57:05                      12
+/home/engineer/project/airflow_home/dags/bash_dag.py                                                   1           0  0.10s           2025-09-28T14:57:09                      12
+/home/engineer/project/airflow_home/dags/dummy_dag.py                                                  1           0  0.10s           2025-09-28T14:57:08                      12
+/home/engineer/project/airflow_home/dags/testdag.py                                                    1           0  0.10s           2025-09-28T14:57:11                      12
+/home/engineer/project/airflow_home/dags/my_first_dag.py                                               1           0  0.10s           2025-09-28T14:57:13                      12
+/home/engineer/project/airflow_home/dags/etl_server_access_log_processing.py                           1           0  0.10s           2025-09-28T14:57:10                      12
+================================================================================
+[2025-09-28T15:58:04.477+0100] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/engineer/project/airflow_home/dags/ETL_toll_data.py                                              1           0  0.50s           2025-09-28T14:58:04                      12
+/home/engineer/project/airflow_home/dags/dummy_dag.py                                                  1           0  0.10s           2025-09-28T14:57:39                      12
+/home/engineer/project/airflow_home/dags/testdag.py                                                    1           0  0.10s           2025-09-28T14:57:42                      12
+/home/engineer/project/airflow_home/dags/my_first_dag.py                                               1           0  0.10s           2025-09-28T14:57:43                      12
+/home/engineer/project/airflow_home/dags/etl_server_access_log_processing.py                           1           0  0.10s           2025-09-28T14:57:41                      12
+/home/engineer/project/airflow_home/dags/simple_hello_world.py                                         1           0  0.10s           2025-09-28T14:57:36                      12
+/home/engineer/project/airflow_home/dags/bash_dag.py                                                   1           0  0.10s           2025-09-28T14:57:40                      12
+================================================================================
+[2025-09-28T15:58:35.038+0100] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/engineer/project/airflow_home/dags/ETL_toll_data.py                                              1           0  0.50s           2025-09-28T14:58:35                      12
+/home/engineer/project/airflow_home/dags/dummy_dag.py                                                  1           0  0.10s           2025-09-28T14:58:09                      12
+/home/engineer/project/airflow_home/dags/testdag.py                                                    1           0  0.10s           2025-09-28T14:58:13                      12
+/home/engineer/project/airflow_home/dags/bash_dag.py                                                   1           0  0.10s           2025-09-28T14:58:10                      12
+/home/engineer/project/airflow_home/dags/simple_hello_world.py                                         1           0  0.10s           2025-09-28T14:58:06                      12
+/home/engineer/project/airflow_home/dags/my_first_dag.py                                               1           0  0.10s           2025-09-28T14:58:14                      12
+/home/engineer/project/airflow_home/dags/etl_server_access_log_processing.py                           1           0  0.10s           2025-09-28T14:58:11                      12
+================================================================================
+[2025-09-28T15:59:05.602+0100] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/engineer/project/airflow_home/dags/ETL_toll_data.py                                              1           0  0.50s           2025-09-28T14:59:05                      12
+/home/engineer/project/airflow_home/dags/my_first_dag.py                                               1           0  0.10s           2025-09-28T14:58:44                      12
+/home/engineer/project/airflow_home/dags/testdag.py                                                    1           0  0.10s           2025-09-28T14:58:43                      12
+/home/engineer/project/airflow_home/dags/bash_dag.py                                                   1           0  0.10s           2025-09-28T14:58:41                      12
+/home/engineer/project/airflow_home/dags/simple_hello_world.py                                         1           0  0.10s           2025-09-28T14:58:37                      12
+/home/engineer/project/airflow_home/dags/etl_server_access_log_processing.py                           1           0  0.10s           2025-09-28T14:58:42                      12
+/home/engineer/project/airflow_home/dags/dummy_dag.py                                                  1           0  0.10s           2025-09-28T14:58:40                      12
+================================================================================
+[2025-09-28T15:59:36.269+0100] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/engineer/project/airflow_home/dags/ETL_toll_data.py                                              1           0  0.60s           2025-09-28T14:59:36                      12
+/home/engineer/project/airflow_home/dags/testdag.py                                                    1           0  0.10s           2025-09-28T14:59:14                      12
+/home/engineer/project/airflow_home/dags/etl_server_access_log_processing.py                           1           0  0.10s           2025-09-28T14:59:13                      12
+/home/engineer/project/airflow_home/dags/dummy_dag.py                                                  1           0  0.10s           2025-09-28T14:59:10                      12
+/home/engineer/project/airflow_home/dags/bash_dag.py                                                   1           0  0.10s           2025-09-28T14:59:11                      12
+/home/engineer/project/airflow_home/dags/simple_hello_world.py                                         1           0  0.10s           2025-09-28T14:59:07                      12
+/home/engineer/project/airflow_home/dags/my_first_dag.py                                               1           0  0.10s           2025-09-28T14:59:15                      12
+================================================================================
+[2025-09-28T16:00:06.832+0100] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/engineer/project/airflow_home/dags/ETL_toll_data.py                                              1           0  0.50s           2025-09-28T15:00:06                      12
+/home/engineer/project/airflow_home/dags/bash_dag.py                                                   1           0  0.10s           2025-09-28T14:59:42                      12
+/home/engineer/project/airflow_home/dags/simple_hello_world.py                                         1           0  0.10s           2025-09-28T14:59:38                      12
+/home/engineer/project/airflow_home/dags/etl_server_access_log_processing.py                           1           0  0.10s           2025-09-28T14:59:43                      12
+/home/engineer/project/airflow_home/dags/testdag.py                                                    1           0  0.10s           2025-09-28T14:59:44                      12
+/home/engineer/project/airflow_home/dags/dummy_dag.py                                                  1           0  0.10s           2025-09-28T14:59:41                      12
+/home/engineer/project/airflow_home/dags/my_first_dag.py                                               1           0  0.10s           2025-09-28T14:59:45                      12
+================================================================================
+[2025-09-28T16:00:24.091+0100] {manager.py:821} INFO - Searching for files in /home/engineer/project/airflow_home/dags
+[2025-09-28T16:00:24.094+0100] {manager.py:824} INFO - There are 7 files in /home/engineer/project/airflow_home/dags
+[2025-09-28T16:00:37.393+0100] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/engineer/project/airflow_home/dags/ETL_toll_data.py                                              1           0  0.50s           2025-09-28T15:00:37                      12
+/home/engineer/project/airflow_home/dags/my_first_dag.py                                               1           0  0.10s           2025-09-28T15:00:16                      12
+/home/engineer/project/airflow_home/dags/dummy_dag.py                                                  1           0  0.10s           2025-09-28T15:00:11                      12
+/home/engineer/project/airflow_home/dags/testdag.py                                                    1           0  0.10s           2025-09-28T15:00:15                      12
+/home/engineer/project/airflow_home/dags/bash_dag.py                                                   1           0  0.10s           2025-09-28T15:00:13                      12
+/home/engineer/project/airflow_home/dags/simple_hello_world.py                                         1           0  0.10s           2025-09-28T15:00:08                      12
+/home/engineer/project/airflow_home/dags/etl_server_access_log_processing.py                           1           0  0.10s           2025-09-28T15:00:14                      12
+================================================================================
+[2025-09-28T16:01:07.955+0100] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/engineer/project/airflow_home/dags/ETL_toll_data.py                                              1           0  0.50s           2025-09-28T15:01:07                      12
+/home/engineer/project/airflow_home/dags/simple_hello_world.py                                         1           0  0.10s           2025-09-28T15:00:39                      12
+/home/engineer/project/airflow_home/dags/my_first_dag.py                                               1           0  0.10s           2025-09-28T15:00:47                      12
+/home/engineer/project/airflow_home/dags/etl_server_access_log_processing.py                           1           0  0.10s           2025-09-28T15:00:44                      12
+/home/engineer/project/airflow_home/dags/dummy_dag.py                                                  1           0  0.10s           2025-09-28T15:00:42                      12
+/home/engineer/project/airflow_home/dags/bash_dag.py                                                   1           0  0.10s           2025-09-28T15:00:43                      12
+/home/engineer/project/airflow_home/dags/testdag.py                                                    1           0  0.10s           2025-09-28T15:00:45                      12
+================================================================================
+[2025-09-28T16:01:38.522+0100] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/engineer/project/airflow_home/dags/ETL_toll_data.py                                              1           0  0.50s           2025-09-28T15:01:38                      12
+/home/engineer/project/airflow_home/dags/dummy_dag.py                                                  1           0  0.10s           2025-09-28T15:01:13                      12
+/home/engineer/project/airflow_home/dags/my_first_dag.py                                               1           0  0.10s           2025-09-28T15:01:17                      12
+/home/engineer/project/airflow_home/dags/etl_server_access_log_processing.py                           1           0  0.10s           2025-09-28T15:01:15                      12
+/home/engineer/project/airflow_home/dags/simple_hello_world.py                                         1           0  0.10s           2025-09-28T15:01:10                      12
+/home/engineer/project/airflow_home/dags/testdag.py                                                    1           0  0.10s           2025-09-28T15:01:16                      12
+/home/engineer/project/airflow_home/dags/bash_dag.py                                                   1           0  0.10s           2025-09-28T15:01:14                      12
+================================================================================
+[2025-09-28T16:02:09.105+0100] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/engineer/project/airflow_home/dags/ETL_toll_data.py                                              1           0  0.50s           2025-09-28T15:02:09                      12
+/home/engineer/project/airflow_home/dags/testdag.py                                                    1           0  0.10s           2025-09-28T15:01:47                      12
+/home/engineer/project/airflow_home/dags/simple_hello_world.py                                         1           0  0.10s           2025-09-28T15:01:40                      12
+/home/engineer/project/airflow_home/dags/etl_server_access_log_processing.py                           1           0  0.10s           2025-09-28T15:01:45                      12
+/home/engineer/project/airflow_home/dags/dummy_dag.py                                                  1           0  0.10s           2025-09-28T15:01:43                      12
+/home/engineer/project/airflow_home/dags/bash_dag.py                                                   1           0  0.10s           2025-09-28T15:01:44                      12
+/home/engineer/project/airflow_home/dags/my_first_dag.py                                               1           0  0.10s           2025-09-28T15:01:48                      12
+================================================================================
+[2025-09-28T16:02:39.679+0100] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/engineer/project/airflow_home/dags/ETL_toll_data.py                                              1           0  0.50s           2025-09-28T15:02:39                      12
+/home/engineer/project/airflow_home/dags/testdag.py                                                    1           0  0.10s           2025-09-28T15:02:17                      12
+/home/engineer/project/airflow_home/dags/dummy_dag.py                                                  1           0  0.10s           2025-09-28T15:02:14                      12
+/home/engineer/project/airflow_home/dags/my_first_dag.py                                               1           0  0.10s           2025-09-28T15:02:18                      12
+/home/engineer/project/airflow_home/dags/etl_server_access_log_processing.py                           1           0  0.10s           2025-09-28T15:02:16                      12
+/home/engineer/project/airflow_home/dags/simple_hello_world.py                                         1           0  0.10s           2025-09-28T15:02:11                      12
+/home/engineer/project/airflow_home/dags/bash_dag.py                                                   1           0  0.10s           2025-09-28T15:02:15                      12
+================================================================================
+[2025-09-28T16:03:10.251+0100] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/engineer/project/airflow_home/dags/ETL_toll_data.py                                              1           0  0.51s           2025-09-28T15:03:10                      12
+/home/engineer/project/airflow_home/dags/simple_hello_world.py                                         1           0  0.10s           2025-09-28T15:02:41                      12
+/home/engineer/project/airflow_home/dags/bash_dag.py                                                   1           0  0.10s           2025-09-28T15:02:45                      12
+/home/engineer/project/airflow_home/dags/testdag.py                                                    1           0  0.10s           2025-09-28T15:02:48                      12
+/home/engineer/project/airflow_home/dags/dummy_dag.py                                                  1           0  0.10s           2025-09-28T15:02:44                      12
+/home/engineer/project/airflow_home/dags/etl_server_access_log_processing.py                           1           0  0.10s           2025-09-28T15:02:47                      12
+/home/engineer/project/airflow_home/dags/my_first_dag.py                                               1           0  0.10s           2025-09-28T15:02:49                      12
+================================================================================
+[2025-09-28T16:03:40.825+0100] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/engineer/project/airflow_home/dags/ETL_toll_data.py                                              1           0  0.51s           2025-09-28T15:03:40                      12
+/home/engineer/project/airflow_home/dags/testdag.py                                                    1           0  0.10s           2025-09-28T15:03:18                      12
+/home/engineer/project/airflow_home/dags/my_first_dag.py                                               1           0  0.10s           2025-09-28T15:03:19                      12
+/home/engineer/project/airflow_home/dags/bash_dag.py                                                   1           0  0.10s           2025-09-28T15:03:16                      12
+/home/engineer/project/airflow_home/dags/dummy_dag.py                                                  1           0  0.10s           2025-09-28T15:03:15                      12
+/home/engineer/project/airflow_home/dags/etl_server_access_log_processing.py                           1           0  0.10s           2025-09-28T15:03:17                      12
+/home/engineer/project/airflow_home/dags/simple_hello_world.py                                         1           0  0.10s           2025-09-28T15:03:12                      12
+================================================================================
+[2025-09-28T16:04:11.303+0100] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/engineer/project/airflow_home/dags/ETL_toll_data.py                                              1           0  0.40s           2025-09-28T15:04:11                      12
+/home/engineer/project/airflow_home/dags/dummy_dag.py                                                  1           0  0.10s           2025-09-28T15:03:45                      12
+/home/engineer/project/airflow_home/dags/testdag.py                                                    1           0  0.10s           2025-09-28T15:03:49                      12
+/home/engineer/project/airflow_home/dags/etl_server_access_log_processing.py                           1           0  0.10s           2025-09-28T15:03:48                      12
+/home/engineer/project/airflow_home/dags/simple_hello_world.py                                         1           0  0.10s           2025-09-28T15:03:43                      12
+/home/engineer/project/airflow_home/dags/bash_dag.py                                                   1           0  0.10s           2025-09-28T15:03:47                      12
+/home/engineer/project/airflow_home/dags/my_first_dag.py                                               1           0  0.10s           2025-09-28T15:03:50                      12
+================================================================================
+[2025-09-28T16:04:41.872+0100] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/engineer/project/airflow_home/dags/ETL_toll_data.py                                              1           0  0.50s           2025-09-28T15:04:41                      12
+/home/engineer/project/airflow_home/dags/testdag.py                                                    1           0  0.10s           2025-09-28T15:04:19                      12
+/home/engineer/project/airflow_home/dags/my_first_dag.py                                               1           0  0.10s           2025-09-28T15:04:20                      12
+/home/engineer/project/airflow_home/dags/etl_server_access_log_processing.py                           1           0  0.10s           2025-09-28T15:04:18                      12
+/home/engineer/project/airflow_home/dags/simple_hello_world.py                                         1           0  0.10s           2025-09-28T15:04:13                      12
+/home/engineer/project/airflow_home/dags/dummy_dag.py                                                  1           0  0.10s           2025-09-28T15:04:16                      12
+/home/engineer/project/airflow_home/dags/bash_dag.py                                                   1           0  0.10s           2025-09-28T15:04:17                      12
+================================================================================
+[2025-09-28T16:05:12.342+0100] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/engineer/project/airflow_home/dags/ETL_toll_data.py                                              1           0  0.40s           2025-09-28T15:05:12                      12
+/home/engineer/project/airflow_home/dags/bash_dag.py                                                   1           0  0.10s           2025-09-28T15:04:48                      12
+/home/engineer/project/airflow_home/dags/simple_hello_world.py                                         1           0  0.10s           2025-09-28T15:04:44                      12
+/home/engineer/project/airflow_home/dags/etl_server_access_log_processing.py                           1           0  0.10s           2025-09-28T15:04:49                      12
+/home/engineer/project/airflow_home/dags/dummy_dag.py                                                  1           0  0.10s           2025-09-28T15:04:47                      12
+/home/engineer/project/airflow_home/dags/my_first_dag.py                                               1           0  0.10s           2025-09-28T15:04:51                      12
+/home/engineer/project/airflow_home/dags/testdag.py                                                    1           0  0.10s           2025-09-28T15:04:50                      12
+================================================================================
+[2025-09-28T16:05:24.596+0100] {manager.py:821} INFO - Searching for files in /home/engineer/project/airflow_home/dags
+[2025-09-28T16:05:24.598+0100] {manager.py:824} INFO - There are 7 files in /home/engineer/project/airflow_home/dags
+[2025-09-28T16:05:42.811+0100] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/engineer/project/airflow_home/dags/ETL_toll_data.py                                              1           0  0.40s           2025-09-28T15:05:42                      12
+/home/engineer/project/airflow_home/dags/bash_dag.py                                                   1           0  0.10s           2025-09-28T15:05:18                      12
+/home/engineer/project/airflow_home/dags/simple_hello_world.py                                         1           0  0.10s           2025-09-28T15:05:14                      12
+/home/engineer/project/airflow_home/dags/my_first_dag.py                                               1           0  0.10s           2025-09-28T15:05:22                      12
+/home/engineer/project/airflow_home/dags/dummy_dag.py                                                  1           0  0.10s           2025-09-28T15:05:17                      12
+/home/engineer/project/airflow_home/dags/etl_server_access_log_processing.py                           1           0  0.10s           2025-09-28T15:05:19                      12
+/home/engineer/project/airflow_home/dags/testdag.py                                                    1           0  0.10s           2025-09-28T15:05:20                      12
+================================================================================
+[2025-09-28T16:06:13.378+0100] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/engineer/project/airflow_home/dags/ETL_toll_data.py                                              1           0  0.50s           2025-09-28T15:06:13                      12
+/home/engineer/project/airflow_home/dags/dummy_dag.py                                                  1           0  0.10s           2025-09-28T15:05:47                      12
+/home/engineer/project/airflow_home/dags/simple_hello_world.py                                         1           0  0.10s           2025-09-28T15:05:44                      12
+/home/engineer/project/airflow_home/dags/testdag.py                                                    1           0  0.10s           2025-09-28T15:05:51                      12
+/home/engineer/project/airflow_home/dags/etl_server_access_log_processing.py                           1           0  0.10s           2025-09-28T15:05:50                      12
+/home/engineer/project/airflow_home/dags/my_first_dag.py                                               1           0  0.10s           2025-09-28T15:05:52                      12
+/home/engineer/project/airflow_home/dags/bash_dag.py                                                   1           0  0.10s           2025-09-28T15:05:49                      12
+================================================================================
+[2025-09-28T16:06:43.952+0100] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/engineer/project/airflow_home/dags/ETL_toll_data.py                                              1           0  0.50s           2025-09-28T15:06:43                      12
+/home/engineer/project/airflow_home/dags/bash_dag.py                                                   1           0  0.10s           2025-09-28T15:06:19                      12
+/home/engineer/project/airflow_home/dags/dummy_dag.py                                                  1           0  0.10s           2025-09-28T15:06:18                      12
+/home/engineer/project/airflow_home/dags/etl_server_access_log_processing.py                           1           0  0.10s           2025-09-28T15:06:20                      12
+/home/engineer/project/airflow_home/dags/my_first_dag.py                                               1           0  0.10s           2025-09-28T15:06:23                      12
+/home/engineer/project/airflow_home/dags/simple_hello_world.py                                         1           0  0.10s           2025-09-28T15:06:15                      12
+/home/engineer/project/airflow_home/dags/testdag.py                                                    1           0  0.10s           2025-09-28T15:06:21                      12
+================================================================================
+[2025-09-28T16:07:14.522+0100] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/engineer/project/airflow_home/dags/ETL_toll_data.py                                              1           0  0.50s           2025-09-28T15:07:14                      12
+/home/engineer/project/airflow_home/dags/simple_hello_world.py                                         1           0  0.10s           2025-09-28T15:06:46                      12
+/home/engineer/project/airflow_home/dags/dummy_dag.py                                                  1           0  0.10s           2025-09-28T15:06:49                      12
+/home/engineer/project/airflow_home/dags/bash_dag.py                                                   1           0  0.10s           2025-09-28T15:06:50                      12
+/home/engineer/project/airflow_home/dags/testdag.py                                                    1           0  0.10s           2025-09-28T15:06:52                      12
+/home/engineer/project/airflow_home/dags/etl_server_access_log_processing.py                           1           0  0.10s           2025-09-28T15:06:51                      12
+/home/engineer/project/airflow_home/dags/my_first_dag.py                                               1           0  0.10s           2025-09-28T15:06:53                      12
+================================================================================
+[2025-09-28T16:07:44.996+0100] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/engineer/project/airflow_home/dags/ETL_toll_data.py                                              1           0  0.40s           2025-09-28T15:07:44                      12
+/home/engineer/project/airflow_home/dags/dummy_dag.py                                                  1           0  0.10s           2025-09-28T15:07:19                      12
+/home/engineer/project/airflow_home/dags/simple_hello_world.py                                         1           0  0.10s           2025-09-28T15:07:16                      12
+/home/engineer/project/airflow_home/dags/bash_dag.py                                                   1           0  0.10s           2025-09-28T15:07:20                      12
+/home/engineer/project/airflow_home/dags/testdag.py                                                    1           0  0.10s           2025-09-28T15:07:23                      12
+/home/engineer/project/airflow_home/dags/my_first_dag.py                                               1           0  0.10s           2025-09-28T15:07:24                      12
+/home/engineer/project/airflow_home/dags/etl_server_access_log_processing.py                           1           0  0.10s           2025-09-28T15:07:21                      12
+================================================================================
+[2025-09-28T16:08:15.472+0100] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/engineer/project/airflow_home/dags/ETL_toll_data.py                                              1           0  0.41s           2025-09-28T15:08:15                      12
+/home/engineer/project/airflow_home/dags/dummy_dag.py                                                  1           0  0.10s           2025-09-28T15:07:50                      12
+/home/engineer/project/airflow_home/dags/simple_hello_world.py                                         1           0  0.10s           2025-09-28T15:07:47                      12
+/home/engineer/project/airflow_home/dags/bash_dag.py                                                   1           0  0.10s           2025-09-28T15:07:51                      12
+/home/engineer/project/airflow_home/dags/etl_server_access_log_processing.py                           1           0  0.10s           2025-09-28T15:07:52                      12
+/home/engineer/project/airflow_home/dags/testdag.py                                                    1           0  0.10s           2025-09-28T15:07:53                      12
+/home/engineer/project/airflow_home/dags/my_first_dag.py                                               1           0  0.10s           2025-09-28T15:07:54                      12
+================================================================================
+[2025-09-28T16:08:45.944+0100] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/engineer/project/airflow_home/dags/ETL_toll_data.py                                              1           0  0.41s           2025-09-28T15:08:45                      12
+/home/engineer/project/airflow_home/dags/dummy_dag.py                                                  1           0  0.10s           2025-09-28T15:08:20                      12
+/home/engineer/project/airflow_home/dags/my_first_dag.py                                               1           0  0.10s           2025-09-28T15:08:25                      12
+/home/engineer/project/airflow_home/dags/etl_server_access_log_processing.py                           1           0  0.10s           2025-09-28T15:08:22                      12
+/home/engineer/project/airflow_home/dags/bash_dag.py                                                   1           0  0.10s           2025-09-28T15:08:21                      12
+/home/engineer/project/airflow_home/dags/testdag.py                                                    1           0  0.10s           2025-09-28T15:08:24                      12
+/home/engineer/project/airflow_home/dags/simple_hello_world.py                                         1           0  0.10s           2025-09-28T15:08:17                      12
+================================================================================
+[2025-09-28T16:09:16.686+0100] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/engineer/project/airflow_home/dags/ETL_toll_data.py                                              1           0  0.68s           2025-09-28T15:09:16                      12
+/home/engineer/project/airflow_home/dags/dummy_dag.py                                                  1           0  0.10s           2025-09-28T15:08:51                      12
+/home/engineer/project/airflow_home/dags/simple_hello_world.py                                         1           0  0.10s           2025-09-28T15:08:48                      12
+/home/engineer/project/airflow_home/dags/testdag.py                                                    1           0  0.10s           2025-09-28T15:08:54                      12
+/home/engineer/project/airflow_home/dags/bash_dag.py                                                   1           0  0.10s           2025-09-28T15:08:52                      12
+/home/engineer/project/airflow_home/dags/etl_server_access_log_processing.py                           1           0  0.10s           2025-09-28T15:08:53                      12
+/home/engineer/project/airflow_home/dags/my_first_dag.py                                               1           0  0.10s           2025-09-28T15:08:55                      12
+================================================================================
+[2025-09-28T16:10:25.202+0100] {manager.py:821} INFO - Searching for files in /home/engineer/project/airflow_home/dags
+[2025-09-28T16:10:25.204+0100] {manager.py:824} INFO - There are 7 files in /home/engineer/project/airflow_home/dags
+[2025-09-28T16:10:29.863+0100] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/engineer/project/airflow_home/dags/ETL_toll_data.py                                              1           0  0.50s           2025-09-28T15:10:19                      12
+/home/engineer/project/airflow_home/dags/dummy_dag.py                                                  1           0  0.10s           2025-09-28T15:10:20                      12
+/home/engineer/project/airflow_home/dags/simple_hello_world.py                                         1           0  0.10s           2025-09-28T15:10:19                      12
+/home/engineer/project/airflow_home/dags/my_first_dag.py                                               1           0  0.10s           2025-09-28T15:10:24                      12
+/home/engineer/project/airflow_home/dags/bash_dag.py                                                   1           0  0.10s           2025-09-28T15:10:21                      12
+/home/engineer/project/airflow_home/dags/etl_server_access_log_processing.py                           1           0  0.10s           2025-09-28T15:10:22                      12
+/home/engineer/project/airflow_home/dags/testdag.py                                                    1           0  0.10s           2025-09-28T15:10:23                      12
+================================================================================
+[2025-09-28T16:10:59.928+0100] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/engineer/project/airflow_home/dags/ETL_toll_data.py                                              1           0  0.50s           2025-09-28T15:10:49                      12
+/home/engineer/project/airflow_home/dags/my_first_dag.py                                               1           0  0.10s           2025-09-28T15:10:55                      12
+/home/engineer/project/airflow_home/dags/bash_dag.py                                                   1           0  0.10s           2025-09-28T15:10:51                      12
+/home/engineer/project/airflow_home/dags/dummy_dag.py                                                  1           0  0.10s           2025-09-28T15:10:50                      12
+/home/engineer/project/airflow_home/dags/testdag.py                                                    1           0  0.10s           2025-09-28T15:10:53                      12
+/home/engineer/project/airflow_home/dags/etl_server_access_log_processing.py                           1           0  0.10s           2025-09-28T15:10:52                      12
+/home/engineer/project/airflow_home/dags/simple_hello_world.py                                         1           0  0.10s           2025-09-28T15:10:50                      12
+================================================================================
+[2025-09-28T16:11:29.987+0100] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/engineer/project/airflow_home/dags/ETL_toll_data.py                                              1           0  0.50s           2025-09-28T15:11:20                      12
+/home/engineer/project/airflow_home/dags/simple_hello_world.py                                         1           0  0.11s           2025-09-28T15:11:21                      12
+/home/engineer/project/airflow_home/dags/bash_dag.py                                                   1           0  0.10s           2025-09-28T15:11:24                      12
+/home/engineer/project/airflow_home/dags/testdag.py                                                    1           0  0.10s           2025-09-28T15:11:25                      12
+/home/engineer/project/airflow_home/dags/my_first_dag.py                                               1           0  0.10s           2025-09-28T15:11:27                      12
+/home/engineer/project/airflow_home/dags/dummy_dag.py                                                  1           0  0.10s           2025-09-28T15:11:23                      12
+/home/engineer/project/airflow_home/dags/etl_server_access_log_processing.py                           1           0  0.10s           2025-09-28T15:11:25                      12
+================================================================================
+[2025-09-28T16:12:00.045+0100] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/engineer/project/airflow_home/dags/ETL_toll_data.py                                              1           0  0.60s           2025-09-28T15:11:51                      12
+/home/engineer/project/airflow_home/dags/bash_dag.py                                                   1           0  0.10s           2025-09-28T15:11:54                      12
+/home/engineer/project/airflow_home/dags/dummy_dag.py                                                  1           0  0.10s           2025-09-28T15:11:53                      12
+/home/engineer/project/airflow_home/dags/simple_hello_world.py                                         1           0  0.10s           2025-09-28T15:11:52                      12
+/home/engineer/project/airflow_home/dags/my_first_dag.py                                               1           0  0.10s           2025-09-28T15:11:57                      12
+/home/engineer/project/airflow_home/dags/testdag.py                                                    1           0  0.10s           2025-09-28T15:11:56                      12
+/home/engineer/project/airflow_home/dags/etl_server_access_log_processing.py                           1           0  0.10s           2025-09-28T15:11:56                      12
+================================================================================
+[2025-09-28T16:12:30.097+0100] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/engineer/project/airflow_home/dags/ETL_toll_data.py                                              1           0  0.41s           2025-09-28T15:12:21                      12
+/home/engineer/project/airflow_home/dags/testdag.py                                                    1           0  0.10s           2025-09-28T15:12:27                      12
+/home/engineer/project/airflow_home/dags/simple_hello_world.py                                         1           0  0.10s           2025-09-28T15:12:23                      12
+/home/engineer/project/airflow_home/dags/bash_dag.py                                                   1           0  0.10s           2025-09-28T15:12:25                      12
+/home/engineer/project/airflow_home/dags/dummy_dag.py                                                  1           0  0.10s           2025-09-28T15:12:24                      12
+/home/engineer/project/airflow_home/dags/my_first_dag.py                                               1           0  0.10s           2025-09-28T15:12:28                      12
+/home/engineer/project/airflow_home/dags/etl_server_access_log_processing.py                           1           0  0.10s           2025-09-28T15:12:26                      12
+================================================================================
+[2025-09-28T16:13:00.159+0100] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/engineer/project/airflow_home/dags/ETL_toll_data.py                                              1           0  0.50s           2025-09-28T15:12:52                      12
+/home/engineer/project/airflow_home/dags/dummy_dag.py                                                  1           0  0.10s           2025-09-28T15:12:54                      12
+/home/engineer/project/airflow_home/dags/my_first_dag.py                                               1           0  0.10s           2025-09-28T15:12:58                      12
+/home/engineer/project/airflow_home/dags/simple_hello_world.py                                         1           0  0.10s           2025-09-28T15:12:53                      12
+/home/engineer/project/airflow_home/dags/testdag.py                                                    1           0  0.10s           2025-09-28T15:12:57                      12
+/home/engineer/project/airflow_home/dags/etl_server_access_log_processing.py                           1           0  0.10s           2025-09-28T15:12:57                      12
+/home/engineer/project/airflow_home/dags/bash_dag.py                                                   1           0  0.10s           2025-09-28T15:12:55                      12
+================================================================================
+[2025-09-28T16:13:30.216+0100] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/engineer/project/airflow_home/dags/ETL_toll_data.py                                              1           0  0.51s           2025-09-28T15:13:23                      12
+/home/engineer/project/airflow_home/dags/dummy_dag.py                                                  1           0  0.10s           2025-09-28T15:13:25                      12
+/home/engineer/project/airflow_home/dags/simple_hello_world.py                                         1           0  0.10s           2025-09-28T15:13:24                      12
+/home/engineer/project/airflow_home/dags/my_first_dag.py                                               1           0  0.10s           2025-09-28T15:13:29                      12
+/home/engineer/project/airflow_home/dags/bash_dag.py                                                   1           0  0.10s           2025-09-28T15:13:26                      12
+/home/engineer/project/airflow_home/dags/testdag.py                                                    1           0  0.10s           2025-09-28T15:13:28                      12
+/home/engineer/project/airflow_home/dags/etl_server_access_log_processing.py                           1           0  0.10s           2025-09-28T15:13:27                      12
+================================================================================
+[2025-09-28T16:14:00.378+0100] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/engineer/project/airflow_home/dags/ETL_toll_data.py                                              1           0  0.50s           2025-09-28T15:13:54                      12
+/home/engineer/project/airflow_home/dags/testdag.py                                                    1           0  0.10s           2025-09-28T15:13:59                      12
+/home/engineer/project/airflow_home/dags/bash_dag.py                                                   1           0  0.10s           2025-09-28T15:13:57                      12
+/home/engineer/project/airflow_home/dags/simple_hello_world.py                                         1           0  0.10s           2025-09-28T15:13:55                      12
+/home/engineer/project/airflow_home/dags/etl_server_access_log_processing.py                           1           0  0.10s           2025-09-28T15:13:58                      12
+/home/engineer/project/airflow_home/dags/my_first_dag.py                                               1           0  0.10s           2025-09-28T15:14:00                      12
+/home/engineer/project/airflow_home/dags/dummy_dag.py                                                  1           0  0.10s           2025-09-28T15:13:56                      12
+================================================================================
+[2025-09-28T16:14:30.547+0100] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/engineer/project/airflow_home/dags/ETL_toll_data.py                                              1           0  0.60s           2025-09-28T15:14:26                      12
+/home/engineer/project/airflow_home/dags/bash_dag.py                                                   1           0  0.10s           2025-09-28T15:14:28                      12
+/home/engineer/project/airflow_home/dags/testdag.py                                                    1           0  0.10s           2025-09-28T15:14:30                      12
+/home/engineer/project/airflow_home/dags/etl_server_access_log_processing.py                           1           0  0.10s           2025-09-28T15:14:29                      12
+/home/engineer/project/airflow_home/dags/dummy_dag.py                                                  1           0  0.10s           2025-09-28T15:14:27                      12
+/home/engineer/project/airflow_home/dags/my_first_dag.py                                               1           0  0.10s           2025-09-28T15:14:00                      12
+/home/engineer/project/airflow_home/dags/simple_hello_world.py                                         1           0  0.10s           2025-09-28T15:14:26                      12
+================================================================================
+[2025-09-28T16:15:00.719+0100] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/engineer/project/airflow_home/dags/ETL_toll_data.py                                              1           0  0.40s           2025-09-28T15:14:56                      12
+/home/engineer/project/airflow_home/dags/simple_hello_world.py                                         1           0  0.10s           2025-09-28T15:14:56                      12
+/home/engineer/project/airflow_home/dags/testdag.py                                                    1           0  0.10s           2025-09-28T15:15:00                      12
+/home/engineer/project/airflow_home/dags/etl_server_access_log_processing.py                           1           0  0.10s           2025-09-28T15:15:00                      12
+/home/engineer/project/airflow_home/dags/bash_dag.py                                                   1           0  0.10s           2025-09-28T15:14:59                      12
+/home/engineer/project/airflow_home/dags/dummy_dag.py                                                  1           0  0.10s           2025-09-28T15:14:58                      12
+/home/engineer/project/airflow_home/dags/my_first_dag.py                                               1           0  0.10s           2025-09-28T15:14:31                      12
+================================================================================
+[2025-09-28T16:15:25.211+0100] {manager.py:821} INFO - Searching for files in /home/engineer/project/airflow_home/dags
+[2025-09-28T16:15:25.219+0100] {manager.py:824} INFO - There are 7 files in /home/engineer/project/airflow_home/dags
+[2025-09-28T16:15:30.880+0100] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/engineer/project/airflow_home/dags/ETL_toll_data.py                                              1           0  0.50s           2025-09-28T15:15:27                      12
+/home/engineer/project/airflow_home/dags/etl_server_access_log_processing.py                           1           0  0.10s           2025-09-28T15:15:30                      12
+/home/engineer/project/airflow_home/dags/testdag.py                                                    1           0  0.10s           2025-09-28T15:15:00                      12
+/home/engineer/project/airflow_home/dags/bash_dag.py                                                   1           0  0.10s           2025-09-28T15:15:30                      12
+/home/engineer/project/airflow_home/dags/dummy_dag.py                                                  1           0  0.10s           2025-09-28T15:15:29                      12
+/home/engineer/project/airflow_home/dags/my_first_dag.py                                               1           0  0.10s           2025-09-28T15:15:01                      12
+/home/engineer/project/airflow_home/dags/simple_hello_world.py                                         1           0  0.10s           2025-09-28T15:15:28                      12
+================================================================================
+[2025-09-28T16:16:01.035+0100] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/engineer/project/airflow_home/dags/ETL_toll_data.py                                              1           0  0.50s           2025-09-28T15:15:57                      12
+/home/engineer/project/airflow_home/dags/etl_server_access_log_processing.py                           1           0  0.10s           2025-09-28T15:15:30                      12
+/home/engineer/project/airflow_home/dags/bash_dag.py                                                   1           0  0.10s           2025-09-28T15:16:01                      12
+/home/engineer/project/airflow_home/dags/testdag.py                                                    1           0  0.10s           2025-09-28T15:15:32                      12
+/home/engineer/project/airflow_home/dags/simple_hello_world.py                                         1           0  0.10s           2025-09-28T15:15:58                      12
+/home/engineer/project/airflow_home/dags/my_first_dag.py                                               1           0  0.10s           2025-09-28T15:15:32                      12
+/home/engineer/project/airflow_home/dags/dummy_dag.py                                                  1           0  0.10s           2025-09-28T15:16:00                      12
+================================================================================
+[2025-09-28T16:16:31.191+0100] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/engineer/project/airflow_home/dags/ETL_toll_data.py                                              1           0  0.50s           2025-09-28T15:16:28                      12
+/home/engineer/project/airflow_home/dags/simple_hello_world.py                                         1           0  0.10s           2025-09-28T15:16:29                      12
+/home/engineer/project/airflow_home/dags/bash_dag.py                                                   1           0  0.10s           2025-09-28T15:16:31                      12
+/home/engineer/project/airflow_home/dags/etl_server_access_log_processing.py                           1           0  0.10s           2025-09-28T15:16:02                      12
+/home/engineer/project/airflow_home/dags/dummy_dag.py                                                  1           0  0.10s           2025-09-28T15:16:30                      12
+/home/engineer/project/airflow_home/dags/testdag.py                                                    1           0  0.10s           2025-09-28T15:16:02                      12
+/home/engineer/project/airflow_home/dags/my_first_dag.py                                               1           0  0.10s           2025-09-28T15:16:04                      12
+================================================================================
+[2025-09-28T16:17:01.200+0100] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/engineer/project/airflow_home/dags/ETL_toll_data.py                                              1           0  0.50s           2025-09-28T15:16:58                      12
+/home/engineer/project/airflow_home/dags/etl_server_access_log_processing.py                           1           0  0.10s           2025-09-28T15:16:32                      12
+/home/engineer/project/airflow_home/dags/bash_dag.py                                                   1           0  0.10s           2025-09-28T15:16:31                      12
+/home/engineer/project/airflow_home/dags/my_first_dag.py                                               1           0  0.10s           2025-09-28T15:16:34                      12
+/home/engineer/project/airflow_home/dags/testdag.py                                                    1           0  0.10s           2025-09-28T15:16:33                      12
+/home/engineer/project/airflow_home/dags/simple_hello_world.py                                         1           0  0.10s           2025-09-28T15:17:00                      12
+/home/engineer/project/airflow_home/dags/dummy_dag.py                                                  1           0  0.10s           2025-09-28T15:17:01                      12
+================================================================================
