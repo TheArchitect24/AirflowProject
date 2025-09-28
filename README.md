@@ -4,7 +4,7 @@ This Airflow project contains 2 projects:
 
 # 🚦 ETL Toll Data Pipeline with Apache Airflow
 This project demonstrates an ETL (Extract, Transform, Load) pipeline built with Apache Airflow to process toll data from multiple file formats and load it into a PostgreSQL database. Bash and PythonOperators are combined in this pipeline.
----
+
 ## 📌 Project Overview
 
 The pipeline performs the following tasks:
@@ -22,7 +22,7 @@ Fixed-width text (payment-data.txt)
 Transforms & consolidates the extracted data into a single file.
 
 Loads the final dataset into a PostgreSQL table (car_details).
----
+
 ## 🏗️ Tech Stack
 
 Apache Airflow – Orchestration
@@ -44,7 +44,7 @@ project/
 │   └── cleaned/                 # Intermediate cleaned data files
 │── tolldata.tgz                 # Compressed input data
 ```
----
+
 ⚙️ Setup Instructions
 1. Install Dependencies
 
@@ -108,7 +108,7 @@ tin
 
 plate
 ```
----
+
 ## 🚀 DAG Workflow
 unzip_data 
    → extract_data_from_csv 
@@ -116,15 +116,12 @@ unzip_data
    → extract_data_from_fixed_width 
    → consolidate_data 
    → postgresload
-----
-
-
 
 
 # ETL Server Access Log Processing with Apache Airflow
 
 This project demonstrates how to build an ETL (Extract, Transform, Load) pipeline using Apache Airflow. The pipeline downloads web server access logs, extracts useful fields, transforms the data, and saves the cleaned output for further use.
----
+
 ```
 📂 Project Structure
 project/
@@ -135,7 +132,7 @@ project/
 │── webservertransform.txt                     # Transformed lowercase data
 │── captilized.txt                             # Final processed file
 ```
----
+
 ## 🔄 ETL Workflow
 
 Download
@@ -159,7 +156,7 @@ Saves the transformed data into a final output file (captilized.txt).
 Check
 
 Prints the processed data to verify results.
----
+
 ## ⚙️ Airflow DAG
 
 The DAG is defined with the following tasks:
@@ -167,7 +164,7 @@ The DAG is defined with the following tasks:
 download → extract → transform → load → check
 
 Each task is implemented as a PythonOperator in Airflow.
----
+
 # ✨ Author
 
 # 👨‍💻 Onyinyechukwu Kenneth Nebe aka The Engineer
