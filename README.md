@@ -1,6 +1,6 @@
-This Airflow project contains 2 project contains 
-1. ETL Toll Data Pipeline
-2. Server Access Log Processing
+# This Airflow project contains 2 projects:
+# 1. ETL Toll Data Pipeline
+# 2. Server Access Log Processing
 
 # 🚦 ETL Toll Data Pipeline with Apache Airflow
 
