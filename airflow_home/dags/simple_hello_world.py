@@ -23,5 +23,3 @@ task = BashOperator(
     bash_command = 'echo Hello world once again!',
     dag = dag
 )
-
-task
