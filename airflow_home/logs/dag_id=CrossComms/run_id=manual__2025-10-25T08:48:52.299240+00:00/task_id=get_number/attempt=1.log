@@ -1,0 +1,18 @@
+[2025-10-25T09:48:54.541+0100] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-10-25T09:48:54.549+0100] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: CrossComms.get_number manual__2025-10-25T08:48:52.299240+00:00 [queued]>
+[2025-10-25T09:48:54.552+0100] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: CrossComms.get_number manual__2025-10-25T08:48:52.299240+00:00 [queued]>
+[2025-10-25T09:48:54.553+0100] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2025-10-25T09:48:54.562+0100] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): get_number> on 2025-10-25 08:48:52.299240+00:00
+[2025-10-25T09:48:54.564+0100] {standard_task_runner.py:72} INFO - Started process 3662 to run task
+[2025-10-25T09:48:54.567+0100] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'CrossComms', 'get_number', 'manual__2025-10-25T08:48:52.299240+00:00', '--job-id', '110', '--raw', '--subdir', 'DAGS_FOLDER/crossComms.py', '--cfg-path', '/tmp/tmpsu_6qar8']
+[2025-10-25T09:48:54.568+0100] {standard_task_runner.py:105} INFO - Job 110: Subtask get_number
+[2025-10-25T09:48:54.604+0100] {task_command.py:467} INFO - Running <TaskInstance: CrossComms.get_number manual__2025-10-25T08:48:52.299240+00:00 [running]> on host AZZ-PTT-1.localdomain
+[2025-10-25T09:48:54.650+0100] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='The Engineer' AIRFLOW_CTX_DAG_ID='CrossComms' AIRFLOW_CTX_TASK_ID='get_number' AIRFLOW_CTX_EXECUTION_DATE='2025-10-25T08:48:52.299240+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-10-25T08:48:52.299240+00:00'
+[2025-10-25T09:48:54.651+0100] {taskinstance.py:731} INFO - ::endgroup::
+[2025-10-25T09:48:54.660+0100] {logging_mixin.py:190} INFO - Value 20!
+[2025-10-25T09:48:54.660+0100] {python.py:240} INFO - Done. Returned value was: 21
+[2025-10-25T09:48:54.671+0100] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-10-25T09:48:54.671+0100] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=CrossComms, task_id=get_number, run_id=manual__2025-10-25T08:48:52.299240+00:00, execution_date=20251025T084852, start_date=20251025T084854, end_date=20251025T084854
+[2025-10-25T09:48:54.699+0100] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-10-25T09:48:54.710+0100] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-10-25T09:48:54.714+0100] {local_task_job_runner.py:245} INFO - ::endgroup::
